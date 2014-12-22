@@ -1,0 +1,4 @@
+# Documents
+*.pdf diff=astextplain
+*.PDF diff=astextplain
+*.md text

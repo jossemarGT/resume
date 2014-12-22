@@ -1,0 +1,47 @@
+
+---
+# ==============================================================================
+#                                 WEBSITE HEADER
+# ==============================================================================
+website_title:    'Jossemar Cordero'
+website_tagline:  'Software engineer, maker and maddo scientisto'
+# ==============================================================================
+#                                  GITHUB LINKS
+# ==============================================================================
+your_github_username: jossemarGT
+your_github_reponame: resume
+# ==============================================================================
+#                                   HTML META
+# ==============================================================================
+title: 'jossemarGT résumé'
+lang:   en
+date:   February 20, 2017
+author:
+  - Jossemar Cordero
+description: 'jossemargt resume'
+keywords:
+  - resume
+  - cv
+  - software engineer
+  - devops
+  - developer
+# ==============================================================================
+#                        CUSTOM HTML TO INJECT IN HEADER
+# ==============================================================================
+header-includes: |
+  <!-- anything you put here will go verbatim in the header section
+       Useful for adding javascripts, custom metadata, and so on... -->
+# ******************************************************************************
+# *                             INSERT BEFORE BODY                             *
+# ******************************************************************************
+include-before: |
+    <!-- anything you put here will go before the opening <body> tag
+         (ie: before the README’s contents) Markdown will become HTML  -->
+# ******************************************************************************
+# *                             INSERT AFTER BODY                              *
+# ******************************************************************************
+include-after: |
+    <!-- anything you put here will go before the closing </body> tag
+         (ie: after the README’s contents) Markdown will become HTML  -->
+# ------------------------------------------------------------------------------
+...
