@@ -1,35 +1,36 @@
-# Jonnatan Jossemar Cordero Ramirez
+## Personal
+
+`find . -type f` | `-exec echo {} \;`
+---              | ---
+Name             | Jonnatan Jossemar Cordero Ramirez
+Date of birth    | 1989.03.27
+Nationality      | Guatemalan
+Languages        | Spanish (Native), English (Advanced)
+Sex              | Male
+
+## Contact
+
+`find . -type f` | `-exec echo {} \;`
+---              | ---
+Skype            | jossemar27
+Email            | jossemargt@gmail.com
+Website          | [http://jossemargt.com](http://jossemargt.com)
+
+
+## About me
 
 I'm a research and development enthusiast who really loves to learn, teach, create
 and experiment. I'm one of those who invested their time rising up a company,
 it didn't work, but I don't regret anything at all, I just loved the process and
-its lessons.
+I'll give it a shot again in the future.
 
-| Birth date
-| 1989.03.27
+## Education
 
-| Nationality
-| Guatemalan
+### November 2013
+| **Bachelor's Degree in Software Engineering and Computer Science, Curriculum Completed**
+| Universidad de San Carlos de Guatemala, Guatemala City
 
-| Languages
-| Spanish (Native)
-| English (Advanced)
-
-## Contact
-
-| Phone Number
-| (+502) 4194 8368
-| (+1) 415 316 7804
-
-| E-mail
-| jossemargt@gmail.com
-| .
-
-| Website
-| [http://jossemargt.com](http://jossemargt.com)
-| .
-
-## Experience
+## Work Experience
 
 ### Mar. 2015 - Currently
 | **Xoom a Paypal Service**
@@ -70,26 +71,6 @@ its lessons.
 | **Consulmatic**
 | *Web Developer*
 
-## Education
-
-### November 2013
-| **Bachelor's Degree in Software Engineering and Computer Science, Curriculum Completed**
-| Universidad de San Carlos de Guatemala, Guatemala City
-
-## Extracurricular Activities
-
-### Oct. 2014
-Part of VIII Olimpiada Interuniversitaria de Ciencia y Tecnología (programming
-contest) organizing committee, judging panel and IT support team.
-
-### Sept. 2013
-Part of VII Olimipiada Interuniversitarias de Ciencia y Tecnología (programming
-contest) judging panel and IT support team.
-
-### Jan. - Oct. 2011
-Part of COECYS 11 (Student Congress) organizing committee. We brought Richard
-Stallman! with the great help of SLGT (Open Source community, Guatemala).
-
 ## Skills
 
 ### Proficient
@@ -109,7 +90,7 @@ Scala, Java frameworks (Play, Spring), C, C++, ASM, CLIPS, .NET Framework, Blend
 SysAdmin Windows Server 2008 - 2013, Business Inteligence with SQLServer 2008 (SSIS, SSAS and SSRS),
 svn, LATEX, Unity, Vuforia, Scala, Minix, FreeBSD
 
-## Projects and Technologies
+## Open Source Projects
 
 ### [CopperMantis](https://github.com/CopperMantis)
 Programming contest management system based on SimplePCMS' learned lessons, with
@@ -143,30 +124,19 @@ doesn't need chroot or LXC just to play with our old friend `diff`.
 - Digital Ocean as PaSS provider
 - GIT
 
-### [enmipagina.com](http://enmipagina.com)
-Proof of concept for enmipagina.com startup.
-
-#### Dev stack
-- Node JS
-- Sails JS (on top of express)
-- MongoDB
-- Angular JS
-- Less CSS
-- Digital Ocean as PaSS provider
-- GIT
-
 ## Lectures Given
-- *What is DevOps?* - Universidad Galileo, May. 2016; Universidad de San Carlos de Guatemala, Jun. 2016
-- *Java applications deployment with docker* - Java Day, Guatemala City, Nov. 2015
-- *Intrapreneurship!* - Xoom, Guatemala City, May. 2015
-- *Javacript for non devlopers* - Xoom a Paypal Service, Guatemala City, May. 2015
-- *¿Donde está mi jQuery?* - Javacript Community (js.gt), Guatemala City, Mar. 2015
-- *Valuación Tecnológica* - Centro Municipal de Emprendimiento, Guatemala City, Nov. 2014
-- [Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/) - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
-- *Patrones Cliente-Servidor y N capas* - Universidad de San Carlos de Guatemala, Guatemala City, Oct. 2014
+- **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
+- **What is DevOps?** - Universidad Galileo, Guatemala, May. 2016
+- **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
+- **Intrapreneurship!** - Xoom a Paypal Service, Guatemala City, May. 2015
+- **Javacript for non devlopers** - Xoom a Paypal Service, Guatemala City, May. 2015
+- **¿Donde está mi jQuery?** - Javacript Community (js.gt), Guatemala City, Mar. 2015
+- **Valuación Tecnológica** - Centro Municipal de Emprendimiento, Guatemala City, Nov. 2014
+- **[Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/)** - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
+- **Patrones Cliente-Servidor y N capas** - Universidad de San Carlos de Guatemala, Guatemala City, Oct. 2014
 
 ## Interests and Activities
-- Just code because is great to create new stuff! @[jossemarGT](http://github.com/jossemargt)
+- Creating new stuff! @[jossemarGT](http://github.com/jossemargt)
 - GNU Linux (Debian/Arch/OpenSuse) user
 - Open Source Projects
 - Technology Startups
