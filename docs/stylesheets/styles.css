@@ -42,8 +42,8 @@ h4, h5, h6 {
 
 a {
   color:#C30000;
-  font-weight:200;
   text-decoration:none;
+	cursor: pointer;
 }
 
 a:hover {
@@ -56,30 +56,6 @@ small {
 
 strong {
   font-weight:700;
-}
-
-blockquote {
-  margin: 0;
-  padding: 0 0 0 20px;
-  font-style: italic;
-}
-
-dl, dt, dd, dl p {
-	font-color: #444;
-}
-
-dl dt {
-  font-weight: bold;
-}
-
-dl dd {
-  padding-left: 20px;
-  font-style: italic;
-}
-
-dl p {
-  padding-left: 20px;
-  font-style: italic;
 }
 
 hr {
@@ -111,13 +87,13 @@ table {
 #main-header .title {
 	font-family: 'Arvo', sans-serif;
 	font-size: 30px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.3em;
 	border-bottom: none;
 	margin: 0;
 }
 
-#main-header h1, #main-header h2 {
+#main-header h1, #main-header h2, #main-header a {
   color: #fff!important;
 }
 
@@ -141,7 +117,7 @@ table {
 
 #main-header td {
   padding: 5px 10px;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 #main-header td:first-child {
@@ -156,6 +132,99 @@ table {
 
 #main-content {
   margin: 30px 0 10px;
+}
+
+#main-content h2 {
+	margin-top: 30px;
+}
+
+#main-content h3 {
+	margin: 25px 0 0;
+}
+
+#main-content h3 + p {
+	margin-top: 5px;
+}
+
+/* Projects section*/
+.level4 {
+	margin: 0 0 20px;
+}
+
+.level4 h4 {
+	display:none;
+	margin: 0;
+}
+
+.level4 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.level4 ul li {
+	display: inline-block;
+	margin: 0 0 .3em 1em;
+	padding: 0;
+}
+
+.level4 ul li {
+	position: relative;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 1em;
+	background-color: #171717;
+	border-radius: 0 3px 3px 0;
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+	margin: 5px 10px 5px;
+}
+
+.level4 ul li::before {
+	position: absolute;
+	top: 0;
+	left: -15px;
+	content: '';
+	width: 0;
+	height: 0;
+	border-color: transparent #171717 transparent transparent;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+
+.level4 ul li::after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 6px;
+	height: 6px;
+	margin-top: -3px;
+	background-color: #fff;
+	border-radius: 100%;
+}
+
+.level4 ul li:hover {
+	background-color: #444;
+	color: #fff;
+}
+
+.level4 ul li:hover::before {
+	border-right-color: #444;
+}
+
+@media only screen and (min-width: 45em) {
+	#about-me h2 {
+		margin-top: 30px
+	}
 }
 
 @media print {
