@@ -27,6 +27,8 @@ gh-themes as boilerplate instead? (just like I did).
 
 ## Can I haz docz?
 
+Sure thing, these resources helped me out to create everything you see in this repository
+
 - gh-themes-magick pandoc ports webesite -> https://tajmone.github.io/gh-themes-magick/
 - Pandoc User's Guide -> http://johnmacfarlane.net/pandoc/README.html
 - Ch-M.D post -> http://blog.chmd.fr/editing-a-cv-in-markdown-with-pandoc.html
@@ -37,3 +39,4 @@ gh-themes as boilerplate instead? (just like I did).
 - [Dinky](https://github.com/broccolini/dinky) gh-theme by @[broccolini](https://github.com/broccolini)
 - [gh-themes-magick](https://github.com/tajmone/gh-themes-magick) pandoc ports by @[tajmone](https://github.com/tajmone)
 - [Simple Grid](https://github.com/zachacole/Simple-Grid) css grid by @[zachacole](https://github.com/zachacole)
+- [Pandoc docker image](https://hub.docker.com/r/jagregory/pandoc/) by @[jagregory](https://github.com/jagregory)
