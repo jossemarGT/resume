@@ -6,7 +6,6 @@ Name             | Jonnatan Jossemar Cordero Ramirez
 Date of birth    | 1989.03.27
 Nationality      | Guatemalan
 Languages        | Spanish (Native), English (Advanced)
-Sex              | Male
 
 ## Contact
 
@@ -50,18 +49,14 @@ I'll give it a shot again in the future.
 ### Dec. 2010 - Dec. 2014
 | **jossemarGT**
 | *Freelance Web and Hybrid Mobile Developer*
-| Wordpress sites, Angular Web Applications, Cordova plugins for Android and hybrid mobile apps with Cordova, Angular and Ionic framework.
 
 ### Jun. - Nov. 2014
 | **Universidad de San Carlos de Guatemala**
 | *Teaching assistant*
-| - Operating Systems 2
-| - Advanced Software
 
 ### Oct. 2011 - Jan. 2013
 | **207 Studio**
 | *Senior Web Developer and Educator*
-| Web development project manager and training newcomers in frontend development.
 
 ### Mar. - Sept. 2011
 | **Pixmenta**
@@ -75,20 +70,17 @@ I'll give it a shot again in the future.
 
 ### Proficient
 git, puppet, packer, terraform, docker, kubernetes, bash, jenkins pipeline DSL,
-jenkins administration, node.js, node.js frameworks (hapi.js, sails.js, express.js),
-node.js testing frameworks (karma, jazmine), frontend javascript frameworks (angular,
-Ionic, Cordova), frontend development tools (bower, grunt, gulp, less, sass)
+jenkins administration, node.js, node.js frameworks (hapi.js, sails.js,
+express.js), node.js testing frameworks (karma, jazmine), frontend javascript
+frameworks (angular, Ionic, Cordova), frontend development tools (bower, grunt,
+gulp, less, sass)
 
 ### Competent
-GNU Linux system administration, Go (golang), Python, Ruby, nginx, Maven, mongoDB, mariaDB
+GNU Linux system administration, Go (golang), Python, Ruby, nginx, Maven,
+mongoDB, mariaDB
 
 ### Advanced beginner
 systemd, mercurial, Java, groovy, Android SDK, PostgreSQL, SOAP
-
-### Novice
-Scala, Java frameworks (Play, Spring), C, C++, ASM, CLIPS, .NET Framework, Blender,
-SysAdmin Windows Server 2008 - 2013, Business Inteligence with SQLServer 2008 (SSIS, SSAS and SSRS),
-svn, LATEX, Unity, Vuforia, Scala, Minix, FreeBSD
 
 ## Open Source Projects
 
@@ -97,7 +89,7 @@ Programming contest management system based on SimplePCMS' learned lessons, with
 the advantage of running user's code on docker containers and watching the results
 on semi real time.
 
-#### Dev stack
+#### Technologies involved
 - Docker
 - node.js
 - sails.js
@@ -110,11 +102,11 @@ on semi real time.
 - Digital Ocean as PaSS provider
 - GIT
 
-### [SimplePCMS](https://github.com/jossemarGT/SimplePCMS)
+### [SimplePCMS](https://github.com/jossemargt/SimplePCMS)
 Simple Programming Contest Management System, created for VIII Olimpiada Interuniversitaria,
 doesn't need chroot or LXC just to play with our old friend `diff`.
 
-#### Dev stack
+#### Technologies involved
 - node.js
 - sails.js
 - MongoDB
@@ -139,7 +131,7 @@ doesn't need chroot or LXC just to play with our old friend `diff`.
 - Creating new stuff! @[jossemarGT](http://github.com/jossemargt)
 - GNU Linux (Debian/Arch/OpenSuse) user
 - Open Source Projects
-- Technology Startups
+- Tech Startups
 - Entrepreneurship
 - Teaching
 - Research and development
