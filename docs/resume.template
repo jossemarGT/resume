@@ -57,7 +57,7 @@ $endfor$
     <div class="container">
       <div class="row">
         <header id="main-header" class="col-5">
-          <hgroup>
+          <hgroup class="center">
             <h1 class="title">$website_title$</h1>
             <h2 class="tag-line">$website_tagline$</h2>
           <hgroup>
@@ -78,9 +78,9 @@ $endfor$
         <footer "col-12">
           <p>
             <small>
-              <a href="https://github.com/$your_github_username$/$your_github_reponame$/blob/master/RESUME.md">View On GitHub</a>
-              &bull;
-              Last update: $date-meta$
+              <a class="no-print" href="https://github.com/$your_github_username$/$your_github_reponame$/blob/master/RESUME.md">View On GitHub</a>
+              <span class="no-print">&bull;</span>
+              Last revision: $date-meta$
             </small>
           </p>
         </footer>
