@@ -1,5 +1,5 @@
 #!/bin/sh
-set -ex
+set -eo pipefail
 
 echo  :: Generating Resume Page
 docker run -v "`pwd`":/source --rm jagregory/pandoc \

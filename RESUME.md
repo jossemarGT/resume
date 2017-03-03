@@ -18,10 +18,9 @@ Website          | [http://jossemargt.com](http://jossemargt.com)
 
 ## About me
 
-I'm a research and development enthusiast who really loves to learn, teach, create
-and experiment. I'm one of those who invested their time rising up a company,
-it didn't work, but I don't regret anything at all, I just loved the process and
-I'll give it a shot again in the future.
+I'm a research and development enthusiast who truly enjoy to learn, teach,
+create and experiment. I'm one of those who invested their time rising up a
+company, that didn't work after several tries, but still loved the process.
 
 ## Education
 
@@ -34,7 +33,7 @@ I'll give it a shot again in the future.
 ### Mar. 2015 - Currently
 | **Xoom a Paypal Service**
 | *Software Engineer 3, Infrastructure Tooling*
-| Started as node.js developer, after initiate the docker migration for backend applications relocated to Infrastructure Tooling team, where the main goal is to automate the software delivery pipeline for a polyglot ecosystem with Java, Ruby, node.js and Go based applications.
+| Starting as node.js developer, but quickly involved in the engineering exodus called "the docker migration + CI" due my constant interest in this area I got promoted as Infrastructure Tooling engineer, where the main goal is to automate the software delivery pipeline for a polyglot ecosystem with Java, Ruby, node.js and Go based applications in a hybrid cloud within kubernetes cluster.
 
 ### Jan. 2015 - Mar. 2015
 | **Centrikal**
@@ -69,42 +68,71 @@ I'll give it a shot again in the future.
 ## Skills
 
 ### Proficient
-git, puppet, packer, terraform, docker, kubernetes, bash, jenkins pipeline DSL,
-jenkins administration, node.js, node.js frameworks (hapi.js, sails.js,
-express.js), node.js testing frameworks (karma, jazmine), frontend javascript
-frameworks (angular, Ionic, Cordova), frontend development tools (bower, grunt,
-gulp, less, sass)
+
+| **Technologies and Tools**
+| git, puppet, docker, terraform, Jenkins
+
+| **Programming/Scripting Languages**
+| javascript, groovy
+
+| **Frameworks/DSL**
+| node.js, Jenkins pipeline DSL, Jenkins Job DSL
+
+| **Other**
+| REST API design, Jenkins administration
 
 ### Competent
-GNU Linux system administration, Go (golang), Python, Ruby, nginx, Maven,
-mongoDB, mariaDB
+
+| **Technologies and Tools**
+| kubernetes, etcd, zookeeper, packer, systemd, nginx, gradle, maven, mongoDB, maribaDB, PostgreSQL
+
+| **Programming/Scripting Languages**
+| Go (golang), bash, Python, Ruby, PHP
+
+| **Frameworks/DSL**
+| rspect, beaker, hapi.js, sails.js, express.js, karma, jazmine, angular, ionic, cordova, less, sass, bower, grunt, gulp
+
+| **Other**
+| GNU Linux system administration, Project management
 
 ### Advanced beginner
-systemd, mercurial, Java, groovy, Android SDK, PostgreSQL, SOAP
+
+| **Technologies and Tools**
+| mercurial, svn
+
+| **Programming/Scripting Languages**
+| Java (J2SE), scala, C#
+
+| **Frameworks/DSL**
+| Android SDK, .NET Framework
+
+| **Other**
+| SOAP, gRPC, Minix, FreeBSD
 
 ## Open Source Projects
 
 ### [CopperMantis](https://github.com/CopperMantis)
-Programming contest management system based on SimplePCMS' learned lessons, with
-the advantage of running user's code on docker containers and watching the results
-on semi real time.
+[SimplePCMS](https://github.com/jossemargt/SimplePCMS) successor (under heavy
+development) with the big improvement of running competitor's code in the backend
+as docker container, evaluating each problem on semi real time.
 
 #### Technologies involved
 - Docker
-- node.js
-- sails.js
 - Go (golang)
-- MongoDB
+- PostgreSQL
 - Redis
+- RabbitMQ
+- GIT
 - Angular 1.4
 - Less CSS
 - Bower
+- karma + jazmine
 - Digital Ocean as PaSS provider
-- GIT
 
 ### [SimplePCMS](https://github.com/jossemargt/SimplePCMS)
-Simple Programming Contest Management System, created for VIII Olimpiada Interuniversitaria,
-doesn't need chroot or LXC just to play with our old friend `diff`.
+Simple Programming Contest Management System, created for VIII Olimpiada
+Interuniversitaria, doesn't need `chroot` or fancy Linux containers (`LXC`) just
+to play with our old friend `diff`.
 
 #### Technologies involved
 - node.js
@@ -128,7 +156,7 @@ doesn't need chroot or LXC just to play with our old friend `diff`.
 - **Patrones Cliente-Servidor y N capas** - Universidad de San Carlos de Guatemala, Guatemala City, Oct. 2014
 
 ## Interests and Activities
-- Creating new stuff! @[jossemarGT](http://github.com/jossemargt)
+- Creating new stuff! (as code) @[jossemarGT](http://github.com/jossemargt)
 - GNU Linux (Debian/Arch/OpenSuse) user
 - Open Source Projects
 - Tech Startups

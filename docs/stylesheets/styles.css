@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h4, h5, h6 {
@@ -144,6 +144,16 @@ table {
   margin-top: 5px;
 }
 
+.level2 p, .level3 p, .level3 ul {
+  text-align: justify;
+}
+
+/* Skills */
+
+#skills strong {
+  font-weight: 400;
+}
+
 /* Projects section*/
 .level4 {
   margin: 0 0 20px;
@@ -221,7 +231,7 @@ table {
 
 @media only screen and (min-width: 45em) {
   #about-me h2 {
-  margin-top: 30px
+    margin-top: 30px
   }
 }
 
