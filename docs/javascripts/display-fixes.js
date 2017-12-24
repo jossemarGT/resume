@@ -18,6 +18,10 @@ window.fixScale = function (doc) {
 }
 
 window.appendToSidebar = function (doc, ids) {
+  if (window.innerWidth < 540) {
+    return
+  }
+
   var sidebar = doc.getElementById('main-header')
 
   ids.forEach(function (id) {
@@ -29,7 +33,7 @@ window.appendToSidebar = function (doc, ids) {
 }
 
 window.fixBreaklines = function (doc) {
-  var paragraphs = Array.from(doc.getElementsByTagName('p'))
+  var paragraphs = Array.prototype.slice.call(doc.getElementsByTagName('p'))
   var pipeRegx = /\|/g
 
   paragraphs.forEach(function (e) {

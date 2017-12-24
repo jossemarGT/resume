@@ -18,19 +18,17 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-		<script type="text/javascript">
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-']);
+      _gaq.push(['_trackPageview']);
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-
-		</script>
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
 
   </head>
   <body>
@@ -40,7 +38,7 @@
           <hgroup class="center">
             <h1 class="title">Jossemar Cordero</h1>
             <h2 class="tag-line">Software engineer, maker and maddo scientisto</h2>
-          <hgroup>
+          </hgroup>
         </header>
         <section id="main-content" class="col-7">
 
@@ -49,7 +47,7 @@
         </section>
       </div>
       <div class="row">
-        <footer "col-12">
+        <footer class="col-12">
           <p>
             <small>
               <a class="no-print" href="https://github.com/jossemarGT/resume/blob/master/RESUME.md">View On GitHub</a>
@@ -62,8 +60,8 @@
     </div>
     <script>
       (function(w,d,u){
-        window.fixBreaklines(d);
-        window.appendToSidebar(d, ['personal', 'contact']);
+        w.fixBreaklines(d);
+        w.appendToSidebar(d, ['personal', 'contact']);
       })(window, document)
     </script>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
