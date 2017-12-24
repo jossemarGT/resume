@@ -1,26 +1,25 @@
-## Personal
-
-`find . -type f` | `-exec echo {} \;`
----              | ---
-Name             | Jonnatan Jossemar Cordero Ramirez
-Date of birth    | 1989.03.27
-Nationality      | Guatemalan
-Languages        | Spanish (Native), English (Advanced)
-
-## Contact
-
-`find . -type f` | `-exec echo {} \;`
----              | ---
-Skype            | jossemar27
-Email            | jossemargt@gmail.com
-Website          | [http://jossemargt.com](http://jossemargt.com)
-
-
 ## About me
 
 I'm a research and development enthusiast who truly enjoy to learn, teach,
 create and experiment. I'm one of those who invested their time rising up a
 company, that didn't work after several tries, but still loved the process.
+
+## Personal
+
+`find me -name *data*`  | `-exec cat {} \;`
+---                     | ---
+Name                    | Jonnatan Jossemar Cordero
+Date of birth           | 1989.03.27
+Nationality             | Guatemalan
+Languages               | Spanish (Native), English (Advanced)
+
+## Contact
+
+`find me -name *data*`  | `-exec cat {} \;`
+---                     | ---
+Skype                   | jossemar27
+Email                   | jossemargt@gmail.com
+Website                 | [http://jossemargt.com](http://jossemargt.com)
 
 ## Education
 
@@ -112,55 +111,61 @@ company, that didn't work after several tries, but still loved the process.
 ## Open Source Projects
 
 ### [CopperMantis](https://github.com/CopperMantis)
+
 [SimplePCMS](https://github.com/jossemargt/SimplePCMS) successor (under heavy
 development) with the big improvement of running competitor's code in the backend
 as docker container, evaluating each problem on semi real time.
 
 #### Technologies involved
-- Docker
-- Go (golang)
-- PostgreSQL
-- Redis
-- RabbitMQ
-- GIT
-- Angular 1.4
-- Less CSS
-- Bower
-- karma + jazmine
-- Digital Ocean as PaSS provider
+
+-   Docker
+-   Go (golang)
+-   PostgreSQL
+-   Redis
+-   RabbitMQ
+-   GIT
+-   Angular 1.4
+-   Less CSS
+-   Bower
+-   karma + jazmine
+-   Digital Ocean as PaSS provider
 
 ### [SimplePCMS](https://github.com/jossemargt/SimplePCMS)
+
 Simple Programming Contest Management System, created for VIII Olimpiada
 Interuniversitaria, doesn't need `chroot` or fancy Linux containers (`LXC`) just
 to play with our old friend `diff`.
 
 #### Technologies involved
-- node.js
-- sails.js
-- MongoDB
-- Angular 1.4
-- Less CSS
-- Bower
-- Digital Ocean as PaSS provider
-- GIT
+
+-   node.js
+-   sails.js
+-   MongoDB
+-   Angular 1.4
+-   Less CSS
+-   Bower
+-   Digital Ocean as PaSS provider
+-   GIT
 
 ## Lectures Given
-- **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
-- **What is DevOps?** - Universidad Galileo, Guatemala, May. 2016
-- **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
-- **Intrapreneurship!** - Xoom a Paypal Service, Guatemala City, May. 2015
-- **Javacript for non devlopers** - Xoom a Paypal Service, Guatemala City, May. 2015
-- **¿Donde está mi jQuery?** - Javacript Community (js.gt), Guatemala City, Mar. 2015
-- **Valuación Tecnológica** - Centro Municipal de Emprendimiento, Guatemala City, Nov. 2014
-- **[Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/)** - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
-- **Patrones Cliente-Servidor y N capas** - Universidad de San Carlos de Guatemala, Guatemala City, Oct. 2014
+
+-   **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
+-   **What is DevOps?** - Universidad Galileo, Guatemala, May. 2016
+-   **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
+-   **Intrapreneurship!** - Xoom a Paypal Service, Guatemala City, May. 2015
+-   **Javacript for non devlopers** - Xoom a Paypal Service, Guatemala City, May. 2015
+-   **¿Donde está mi jQuery?** - Javacript Community (js.gt), Guatemala City, Mar. 2015
+-   **Valuación Tecnológica** - Centro Municipal de Emprendimiento, Guatemala City, Nov. 2014
+-   **[Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/)** - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
+-   **Patrones Cliente-Servidor y N capas** - Universidad de San Carlos de Guatemala, Guatemala City, Oct. 2014
 
 ## Interests and Activities
-- Creating new stuff! (as code) @[jossemarGT](http://github.com/jossemargt)
-- GNU Linux (Debian/Arch/OpenSuse) user
-- Open Source Projects
-- Tech Startups
-- Entrepreneurship
-- Teaching
-- Research and development
-- Automate all the things!
+
+-   Creating new stuff! (as code) @[jossemarGT](http://github.com/jossemargt)
+-   GNU Linux (Debian/Arch/OpenSuse) user
+-   Open Source Projects
+-   Tech Startups
+-   Entrepreneurship
+-   Teaching
+-   Research and development
+-   Automate all the things!
