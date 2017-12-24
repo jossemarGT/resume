@@ -8,13 +8,13 @@ TITLE=$(sed -n -e "s/^title:[[:space:]]*'\([^']\+\).*'/\1/p" docs/configuration.
 # container
 generate_page () {
   echo  ":: Generating ${TITLE} Page"
-  docker run -v "$(pwd)":/source --rm jagregory/pandoc \
-        --smart --wrap=none --normalize --section-divs --no-highlight \
-        --from       markdown_github-hard_line_breaks+yaml_metadata_block \
-        --to         html5 \
-        --template   docs/resume.template \
-        --output     docs/index.html \
-        ./RESUME.md  docs/configuration.yaml
+  docker run -v "$(pwd)":/tmp/source -w /tmp/source --rm portown/alpine-pandoc pandoc \
+        --verbose --fail-if-warnings --standalone --wrap=none --section-divs --no-highlight \
+        --from      markdown_github+yaml_metadata_block+auto_identifiers+smart-hard_line_breaks \
+        --to        html5 \
+        --template  docs/resume.template \
+        --output    docs/index.html \
+        ./RESUME.md docs/configuration.yaml
 }
 
 # Bumps last modified date in pandoc template configuration
@@ -22,6 +22,6 @@ bump_date () {
   sed -i "s/date:.*/date:   ${BUILD_DATE}/" docs/configuration.yaml
 }
 
-# Using above defined functions
+# Using the functions defined above
 bump_date
 generate_page

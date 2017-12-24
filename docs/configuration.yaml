@@ -8,8 +8,8 @@ website_tagline:  'Software engineer, maker and maddo scientisto'
 # ==============================================================================
 #                                  GITHUB LINKS
 # ==============================================================================
-your_github_username: jossemarGT
-your_github_reponame: resume
+github_username: jossemarGT
+github_reponame: resume
 # ==============================================================================
 #                                   HTML META
 # ==============================================================================
@@ -28,20 +28,14 @@ keywords:
 # ==============================================================================
 #                        CUSTOM HTML TO INJECT IN HEADER
 # ==============================================================================
-header-includes: |
-  <!-- anything you put here will go verbatim in the header section
-       Useful for adding javascripts, custom metadata, and so on... -->
+header-includes: ''
 # ******************************************************************************
-# *                             INSERT BEFORE BODY                             *
+# *                            INSERT BEFORE <body>                            *
 # ******************************************************************************
-include-before: |
-    <!-- anything you put here will go before the opening <body> tag
-         (ie: before the README’s contents) Markdown will become HTML  -->
+include-before: ''
 # ******************************************************************************
-# *                             INSERT AFTER BODY                              *
+# *                            INSERT BEFORE </body>                           *
 # ******************************************************************************
-include-after: |
-    <!-- anything you put here will go before the closing </body> tag
-         (ie: after the README’s contents) Markdown will become HTML  -->
+include-after: ''
 # ------------------------------------------------------------------------------
 ...
