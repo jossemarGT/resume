@@ -78,7 +78,7 @@ $endfor$
         <footer "col-12">
           <p>
             <small>
-              <a class="no-print" href="https://github.com/$your_github_username$/$your_github_reponame$/blob/master/RESUME.md">View On GitHub</a>
+              <a class="no-print" href="https://github.com/$github_username$/$github_reponame$/blob/master/RESUME.md">View On GitHub</a>
               <span class="no-print">&bull;</span>
               Last revision: $date-meta$
             </small>

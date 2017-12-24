@@ -13,10 +13,10 @@ Because is easy to maintain and publish it as plain text on github :octocat:
 
 ## How did you made it?
 
-1. Write resume in markdown notation.
-2. `./build.sh`
-4. ???
-5. Profit
+1.  Write resume in markdown notation.
+2.  `./build.sh`
+4.  ???
+5.  Profit
 
 ## I want to write one like yours, may I fork this repo?
 
@@ -29,14 +29,14 @@ gh-themes as boilerplate instead? (just like I did).
 
 Sure thing, these resources helped me out to create everything you see in this repository
 
-- gh-themes-magick pandoc ports webesite -> https://tajmone.github.io/gh-themes-magick/
-- Pandoc User's Guide -> http://johnmacfarlane.net/pandoc/README.html
-- Ch-M.D post -> http://blog.chmd.fr/editing-a-cv-in-markdown-with-pandoc.html
-- [tuxtor](https://github.com/tuxtor)'s post (in spanish) -> http://tuxtor.shekalug.org/creando-un-curriculum-con-markdown-pandoc-y-wkhtmltopdf/
+-   gh-themes-magick pandoc ports webesite -> https://tajmone.github.io/gh-themes-magick/
+-   Pandoc User's Guide -> http://johnmacfarlane.net/pandoc/README.html
+-   Ch-M.D post -> http://blog.chmd.fr/editing-a-cv-in-markdown-with-pandoc.html
+-   [tuxtor](https://github.com/tuxtor)'s post (in spanish) -> http://tuxtor.shekalug.org/creando-un-curriculum-con-markdown-pandoc-y-wkhtmltopdf/
 
 # Credits
 
-- [Dinky](https://github.com/broccolini/dinky) gh-theme by @[broccolini](https://github.com/broccolini)
-- [gh-themes-magick](https://github.com/tajmone/gh-themes-magick) pandoc ports by @[tajmone](https://github.com/tajmone)
-- [Simple Grid](https://github.com/zachacole/Simple-Grid) css grid by @[zachacole](https://github.com/zachacole)
-- [Pandoc docker image](https://hub.docker.com/r/jagregory/pandoc/) by @[jagregory](https://github.com/jagregory)
+-   [Dinky](https://github.com/broccolini/dinky) gh-theme by @[broccolini](https://github.com/broccolini)
+-   [gh-themes-magick](https://github.com/tajmone/gh-themes-magick) pandoc ports by @[tajmone](https://github.com/tajmone)
+-   [Simple Grid](https://github.com/zachacole/Simple-Grid) css grid by @[zachacole](https://github.com/zachacole)
+-   [Pandoc 2.0.2 + Alpine Docker image](https://hub.docker.com/r/portown/alpine-pandoc/) by @[portown](https://github.com/portown)
