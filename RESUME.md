@@ -19,13 +19,7 @@ Languages               | Spanish (Native), English (Advanced)
 ---                     | ---
 Skype                   | jossemar27
 Email                   | jossemargt@gmail.com
-Website                 | [http://jossemargt.com](http://jossemargt.com)
-
-## Education
-
-### November 2013
-| **Bachelor's Degree in Software Engineering and Computer Science, Curriculum Completed**
-| Universidad de San Carlos de Guatemala, Guatemala City
+Website                 | <http://jossemargt.com>
 
 ## Work Experience
 
@@ -36,7 +30,7 @@ Website                 | [http://jossemargt.com](http://jossemargt.com)
 
 ### Jan. 2015 - Mar. 2015
 | **Centrikal**
-| *Consultant - Web development (frontend / backend)*
+| *Full stack web development consultant*
 | Architect and team leader for e-trading market place project.
 
 ### Jan. 2014 - Dec. 2014
@@ -46,23 +40,7 @@ Website                 | [http://jossemargt.com](http://jossemargt.com)
 
 ### Dec. 2010 - Dec. 2014
 | **jossemarGT**
-| *Freelance Web and Hybrid Mobile Developer*
-
-### Jun. - Nov. 2014
-| **Universidad de San Carlos de Guatemala**
-| *Teaching assistant*
-
-### Oct. 2011 - Jan. 2013
-| **207 Studio**
-| *Senior Web Developer and Educator*
-
-### Mar. - Sept. 2011
-| **Pixmenta**
-| *Web developer*
-
-### Sept. 2010 - Ene. 2011
-| **Consulmatic**
-| *Web Developer*
+| *Freelance Full Stack and Hybrid Mobile Developer*
 
 ## Skills
 
@@ -108,6 +86,23 @@ Website                 | [http://jossemargt.com](http://jossemargt.com)
 | **Other**
 | SOAP, gRPC, Minix, FreeBSD
 
+## Education
+
+### November 2013
+| **Bachelor's Degree in Software Engineering and Computer Science, Curriculum Completed**
+| Universidad de San Carlos de Guatemala, Guatemala City
+
+## Lectures Given
+
+-   **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
+-   **What is DevOps?** - Universidad Galileo, Guatemala, May. 2016
+-   **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
+-   **Intrapreneurship!** - Xoom a Paypal Service, Guatemala City, May. 2015
+-   **Javacript for non devlopers** - Xoom a Paypal Service, Guatemala City, May. 2015
+-   **¿Donde está mi jQuery?** - Javacript Community (js.gt), Guatemala City, Mar. 2015
+-   **Valuación Tecnológica** - Centro Municipal de Emprendimiento, Guatemala City, Nov. 2014
+-   **[Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/)** - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
+
 ## Open Source Projects
 
 ### [CopperMantis](https://github.com/CopperMantis)
@@ -116,7 +111,7 @@ Website                 | [http://jossemargt.com](http://jossemargt.com)
 development) with the big improvement of running competitor's code in the backend
 as docker container, evaluating each problem on semi real time.
 
-#### Technologies involved
+| **Technologies involved**
 
 -   Docker
 -   Go (golang)
@@ -136,7 +131,7 @@ Simple Programming Contest Management System, created for VIII Olimpiada
 Interuniversitaria, doesn't need `chroot` or fancy Linux containers (`LXC`) just
 to play with our old friend `diff`.
 
-#### Technologies involved
+| **Technologies involved**
 
 -   node.js
 -   sails.js
@@ -146,18 +141,6 @@ to play with our old friend `diff`.
 -   Bower
 -   Digital Ocean as PaSS provider
 -   GIT
-
-## Lectures Given
-
--   **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
--   **What is DevOps?** - Universidad Galileo, Guatemala, May. 2016
--   **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
--   **Intrapreneurship!** - Xoom a Paypal Service, Guatemala City, May. 2015
--   **Javacript for non devlopers** - Xoom a Paypal Service, Guatemala City, May. 2015
--   **¿Donde está mi jQuery?** - Javacript Community (js.gt), Guatemala City, Mar. 2015
--   **Valuación Tecnológica** - Centro Municipal de Emprendimiento, Guatemala City, Nov. 2014
--   **[Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/)** - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
--   **Patrones Cliente-Servidor y N capas** - Universidad de San Carlos de Guatemala, Guatemala City, Oct. 2014
 
 ## Interests and Activities
 
