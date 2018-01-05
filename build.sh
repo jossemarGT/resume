@@ -1,4 +1,5 @@
 #!/bin/bash
+# shellcheck disable=SC2155
 set -euo pipefail
 
 GOAL=${1-default}
@@ -31,8 +32,8 @@ generate_pdf () {
   [ -d dist ] || mkdir dist
   echo  ":: Generating ${TITLE} PDF"
   docker run -v "$(pwd)":/tmp/source -w /tmp/source --rm madnight/docker-alpine-wkhtmltopdf \
-        --quiet --title "${TITLE}" --page-size Letter --no-background \
-        --print-media-type --viewport-size 520px \
+        --title "${TITLE}" --page-size Letter --no-background --print-media-type \
+        --user-style-sheet docs/stylesheets/wkhtmltopdf.css --viewport-size 520px \
         docs/index.html dist/jossemargt-resume.pdf
 }
 
@@ -56,9 +57,12 @@ git_tag_bump () {
     return 0
   fi
 
+  local revision=$(date +'%Y%m%d')
+  local iteration=$(git tag | grep -c "${revision}")
+
   git add docs
-  git commit -m "Update GH Pages on ${BUILD_DATE}"
-  git tag "$(date +'%Y%m%d')"
+  git commit -m "Update GH Pages on ${BUILD_DATE}. [skip ci]"
+  git tag "${revision}-${iteration}"
 }
 
 ##
@@ -69,7 +73,7 @@ git_publish () {
     echo ':: Git publish'
     # Push latest commit to master branch and the tag associated with it
     git push "https://${GH_TOKEN}:x-oauth-basic@github.com/${TRAVIS_REPO_SLUG}" \
-              --quiet HEAD:master --tags
+              --quiet HEAD:master
     return 0
   fi
   echo ':: Git publish -> Nothing to do'
