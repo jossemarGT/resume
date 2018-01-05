@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
 
 body {
   color: #232323;
@@ -23,17 +23,9 @@ h1,h2 {
   padding-bottom: 5px;
 }
 
-h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 20px;
-}
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
 
 h4, h5, h6 {
   font-family: 'Arvo', Monaco, serif;
@@ -50,13 +42,8 @@ a:hover {
   text-decoration: underline;
 }
 
-small {
-  font-size: 12px;
-}
-
-strong {
-  font-weight:700;
-}
+small { font-size: 12px; }
+strong { font-weight:600; }
 
 hr {
   border:0;
@@ -65,13 +52,7 @@ hr {
   margin:0 0 24px;
 }
 
-/* Tables */
-
-table {
-  width:100%;
-}
-
-/* Header */
+table { width:100%; }
 
 #main-header {
   background-color: #171717;
@@ -84,7 +65,7 @@ table {
   -webkit-font-smoothing: antialiased;
 }
 
-#main-header .title {
+.title {
   font-family: 'Arvo', sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -94,7 +75,7 @@ table {
   color: #fff;
 }
 
-#main-header .tag-line {
+.tag-line {
   font-family:Lato,Helvetica,sans-serif;
   font-size: 20px;
   font-weight: 100;
@@ -113,7 +94,7 @@ table {
   text-align: left;
  }
 
-#main-header td {
+td {
   padding: 5px 10px;
   font-weight: 400;
 }
@@ -125,8 +106,6 @@ table {
 #personal thead, #contact thead {
   display: none;
 }
-
-/* Content */
 
 #main-content {
   margin: 30px 0 10px;
@@ -148,35 +127,31 @@ table {
   text-align: justify;
 }
 
-/* Skills */
-
-#skills strong {
-  font-weight: 400;
-}
+#skills strong { font-weight: 400; }
 
 /* Projects section*/
 .level4 {
   margin: 0 0 20px;
 }
 
-.level4 h4 {
+#open-source-projects h4, #open-source-projects strong {
   display:none;
   margin: 0;
 }
 
-.level4 ul {
+#open-source-projects ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.level4 ul li {
+#open-source-projects ul li {
   display: inline-block;
   margin: 0 0 .3em 1em;
   padding: 0;
 }
 
-.level4 ul li {
+#open-source-projects ul li {
   position: relative;
   display: inline-block;
   height: 30px;
@@ -192,7 +167,7 @@ table {
   margin: 5px 10px 5px;
 }
 
-.level4 ul li::before {
+#open-source-projects ul li::before {
   position: absolute;
   top: 0;
   left: -15px;
@@ -206,7 +181,7 @@ table {
   transition: .2s;
 }
 
-.level4 ul li::after {
+#open-source-projects ul li::after {
   position: absolute;
   top: 50%;
   left: 0;
@@ -220,12 +195,12 @@ table {
   border-radius: 100%;
 }
 
-.level4 ul li:hover {
+#open-source-projects ul li:hover {
   background-color: #444;
   color: #fff;
 }
 
-.level4 ul li:hover::before {
+#open-source-projects ul li:hover::before {
   border-right-color: #444;
 }
 
@@ -239,9 +214,136 @@ table {
 
   body {
     padding:0.4in;
-    font-size:12pt;
+    font-size: 12pt;
     color:#444;
     background: none;
+  }
+
+  p {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  p, table {
+    margin: 2pt 0 10pt;
+  }
+
+  td {
+    font-weight: 200;
+  }
+
+  h1, h2, h3, h4, h5 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  h1 { font-size: 22pt; }
+  h2 { font-size: 17pt; }
+  h3, h4 { font-size: 14pt; }
+  strong { font-weight: 400; }
+
+  td { padding: 2pt 0; }
+
+  .tag-line {
+    font-size: 14pt;
+    margin-top: 0;
+  }
+
+
+  .level2, .level3 {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* TODO: Improve content layout in first 2 sections, so this one can go more easily*/
+  #work-experience {
+    page-break-inside: auto;
+    break-inside: auto;
+  }
+
+  h2 ~ .level3 h3 {
+    margin-top: 12pt!important;
+  }
+
+  .level3 strong::after {
+    display: inline-block;
+    margin: 0 2pt 0 4pt;
+    content: '\203A';
+  }
+
+  #main-header {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  #main-content {
+    margin-top: 0;
+  }
+
+  #main-content h2 {
+    margin-top: 18pt;
+  }
+
+  #main-header, h1, h2, a {
+    color: #444!important;
+  }
+
+  #about-me h2 { margin-top: 0; }
+
+  #education strong::after, #open-source-projects strong::after {
+    display: none;
+  }
+
+  a::after { content: " [" attr(href) "] "; }
+
+  h3 a::after { font-size: 12pt; }
+
+  #skills p { margin: 3pt 0 0; }
+  #lectures-given a::after, #contact a::after,
+  #open-source-projects ul li:last-child::after {
+    content: '';
+  }
+
+  #open-source-projects strong { display: inline; }
+  #open-source-projects .level3 p:nth-child(3) { margin: 0 }
+
+  #open-source-projects ul li {
+    display: inline-block;
+    font-size: 12pt;
+    font-weight: 200;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+    background: none;
+    color: #444;
+  }
+
+  #open-source-projects ul li::before {
+    display: none;
+    border: none;
+  }
+
+  #open-source-projects ul li::after {
+    position: static;
+    display: inline;
+    content: ',';
+    font-size: 12pt;
+    font-weight: 200;
+  }
+
+  #lectures-given li, #interests-and-activities li {
+    font-weight: 200;
+  }
+
+  .no-print, strong + br, #advanced-beginner {
+    display: none;
+    margin: 0;
+  }
+
+  footer {
+    float: footnote;
+    margin: 0!important;
   }
 
   @page {
@@ -274,87 +376,5 @@ table {
       content: counter(page);
       font-size: 9pt;
     }
-  }
-
-  h1, h2, h3, h4, h5 {
-    break-after: avoid;
-    page-break-after: avoid;
-  }
-
-  .no-print {
-    display: none;
-    margin: 0;
-  }
-
-  h1 { font-size: 22pt; }
-  h2 { font-size: 20pt; }
-  h3 { font-size: 18pt; }
-  h4 { font-size: 16pt; }
-
-  .level3 {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-
-  #main-header {
-    border: none;
-    margin: 0;
-    padding: 0;
-    background-color: none;
-  }
-
-  #main-content, #main-content h2 {
-    margin-top: 0;
-  }
-
-  #main-header, h1, h2, a {
-    color: #444!important;
-  }
-
-  a::after {
-    content: " [" attr(href) "] ";
-  }
-
-  h3 a::after {
-    font-size: 12pt;
-  }
-
-  #lectures-given a::after, #contact a::after {
-    content: '';
-  }
-
-  .level4 h4 {
-    display: block;
-    margin: 0 0 5px;
-    font-weight: 400;
-  }
-
-  .level4 ul li {
-    display: inline-block;
-    margin: 0 0 .2em .5em;
-    padding: 0;
-    background: none;
-    color: #444;
-  }
-
-  .level4 ul li::before {
-    display: none;
-    border: none;
-  }
-
-  .level4 ul li::after {
-    position: static;
-    display: inline-block;
-    content: ',';
-    font-size: 12pt;
-    font-weight: 200;
-  }
-
-  .level4 ul li:last-child::after {
-    content: '';
-  }
-
-  footer {
-    float: footnote;
   }
 }
