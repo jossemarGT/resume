@@ -7,12 +7,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', Monaco, serif;
   color: #232323;
   margin: 20px 0 10px;
-}
-
-h1, h2, h3 {
-  font-family: 'Arvo', Monaco, serif;
   line-height:1.3;
   font-weight: normal;
 }
@@ -27,10 +24,7 @@ h1 { font-size: 30px; }
 h2 { font-size: 24px; }
 h3 { font-size: 20px; }
 
-h4, h5, h6 {
-  font-family: 'Arvo', Monaco, serif;
-  font-weight: 700;
-}
+p, li { font-size:  1.05rem}
 
 a {
   color:#C30000;
@@ -53,6 +47,13 @@ hr {
 }
 
 table { width:100%; }
+
+td {
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+li { font-weight: 200; }
 
 #main-header {
   background-color: #171717;
@@ -94,10 +95,6 @@ table { width:100%; }
   text-align: left;
  }
 
-td {
-  padding: 5px 10px;
-  font-weight: 400;
-}
 
 #main-header td:first-child {
   font-weight: bold;
@@ -127,31 +124,16 @@ td {
   text-align: justify;
 }
 
-#skills strong { font-weight: 400; }
-
-/* Projects section*/
-.level4 {
-  margin: 0 0 20px;
-}
-
-#open-source-projects h4, #open-source-projects strong {
-  display:none;
-  margin: 0;
-}
-
-#open-source-projects ul {
+.tags {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#open-source-projects ul li {
+.tags li {
   display: inline-block;
   margin: 0 0 .3em 1em;
   padding: 0;
-}
-
-#open-source-projects ul li {
   position: relative;
   display: inline-block;
   height: 30px;
@@ -167,7 +149,7 @@ td {
   margin: 5px 10px 5px;
 }
 
-#open-source-projects ul li::before {
+.tags li::before {
   position: absolute;
   top: 0;
   left: -15px;
@@ -181,7 +163,7 @@ td {
   transition: .2s;
 }
 
-#open-source-projects ul li::after {
+.tags li::after {
   position: absolute;
   top: 50%;
   left: 0;
@@ -195,12 +177,12 @@ td {
   border-radius: 100%;
 }
 
-#open-source-projects ul li:hover {
+.tags li:hover {
   background-color: #444;
   color: #fff;
 }
 
-#open-source-projects ul li:hover::before {
+.tags li:hover::before {
   border-right-color: #444;
 }
 
@@ -290,7 +272,11 @@ td {
     color: #444!important;
   }
 
-  #about-me h2 { margin-top: 0; }
+  /* Printed version should be shorter :) */
+  #about-me { display: none; }
+  #personal h2 { margin-top: 0; }
+  #personal td:first-child, #contact td:first-child { font-weight: 400; }
+  #lectures-given li:nth-child(n+6){ display: none; }
 
   #education strong::after, #open-source-projects strong::after {
     display: none;
@@ -301,15 +287,11 @@ td {
   h3 a::after { font-size: 12pt; }
 
   #skills p { margin: 3pt 0 0; }
-  #lectures-given a::after, #contact a::after,
-  #open-source-projects ul li:last-child::after {
+  #lectures-given a::after, #contact a::after {
     content: '';
   }
 
-  #open-source-projects strong { display: inline; }
-  #open-source-projects .level3 p:nth-child(3) { margin: 0 }
-
-  #open-source-projects ul li {
+  .tags li {
     display: inline-block;
     font-size: 12pt;
     font-weight: 200;
@@ -319,12 +301,12 @@ td {
     color: #444;
   }
 
-  #open-source-projects ul li::before {
+  .tags li::before {
     display: none;
     border: none;
   }
 
-  #open-source-projects ul li::after {
+  .tags li::after {
     position: static;
     display: inline;
     content: ',';
