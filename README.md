@@ -1,10 +1,10 @@
 # jossemarGT résumé
 
 It seems the right word is [résumé](http://english.stackexchange.com/a/61341)
-but it can be called CV as well ¯\_(ツ)_/¯, either case you can read mine in a
+but it can be called CV as well `¯\_(ツ)_/¯`, either case you can read mine in a
 plain old markdown fashion [here on github](RESUME.md), download it as PDF
 from the [releases page](https://github.com/jossemarGT/resume/releases/latest)
-or even take a look to the more elegant `html version`
+or even take a look to the more elegant version
 [here](http://jossemargt.github.io/resume).
 
 ## FAQ
@@ -17,8 +17,8 @@ Because is easy to maintain and publish it as plain text on github :octocat:
 
 1. Write resume in markdown notation.
 2. `./build.sh`
-4. ???
-5. Profit
+3. ???
+4. Profit
 
 ### I want to write one like yours, may I fork this repository?
 

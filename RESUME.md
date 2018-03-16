@@ -1,8 +1,7 @@
 ## About me
 
-I'm a research and development enthusiast who truly enjoy to learn, teach,
-create and experiment. I'm one of those who invested their time rising up a
-company, that didn't work after several tries, but still loved the process.
+I am a maker who truly enjoys to learn, teach, create and experiment. I believe 
+that no one can become "an expert" by themselves.
 
 ## Personal
 
@@ -26,19 +25,20 @@ Website                 | <http://jossemargt.com>
 ### Mar. 2015 - Currently
 
 | **Xoom, a Paypal Service**
-| *Senior Infrastructure Tooling Engineer - SWE3*
-| Starting as node.js developer, but quickly involved in the engineering exodus called "the docker migration + CI" due my constant interest in this area I got promoted as Infrastructure Tooling engineer, where the main goal is to automate the software delivery pipeline for a polyglot ecosystem with Java, Ruby, node.js and Go based applications in a hybrid cloud within kubernetes cluster.
+| *Senior Infrastructure Tooling Engineer - MTS1*
+| Started as a developer and quickly involved with infrastructure matters as an Infrastructure Tooling team member, with the ultimate goal of *reducing the software development cycle time from whiteboard to production* by automating common task and re-defining the deployment model using immutable infrastructure and continuous delivery concepts within a hybrid cloud.
 
 ### Jan. 2014 - Dec. 2014
 
 | **Sait Nao**
 | *Co-Founder*
-| Helping small business to enhance their online image, easily, fast and without risks.
+| I took the journey of raising a startup that had the main goal of helping small businesses to enhance their online presence, easily and fast in a self service manner.
 
 ### Dec. 2010 - Mar. 2015
 
 | **jossemarGT**
 | *Consultant and Freelance Full Stack/Hybrid Mobile Developer*
+| Working in several projects regardless its programming language.
 
 ## Education
 
@@ -60,7 +60,6 @@ Website                 | <http://jossemargt.com>
 ## Lectures Given
 
 - **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
-- **What is DevOps?** - Universidad Galileo, Guatemala, May. 2016
 - **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
 - **Intrapreneurship!** - Xoom a Paypal Service, Guatemala City, May. 2015
 - **Javacript for non devlopers** - Xoom a Paypal Service, Guatemala City, May. 2015
@@ -79,7 +78,6 @@ Website                 | <http://jossemargt.com>
 - Creating new stuff! (as code) @[jossemarGT](http://github.com/jossemargt)
 - GNU Linux (Debian/Arch/OpenSuse) user
 - Open Source Projects
-- Tech Startups
 - Entrepreneurship
 - Teaching
 - Research and development
