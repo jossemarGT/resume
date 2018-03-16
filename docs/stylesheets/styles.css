@@ -24,7 +24,7 @@ h1 { font-size: 30px; }
 h2 { font-size: 24px; }
 h3 { font-size: 20px; }
 
-p, li { font-size:  1.05rem}
+p, li { font-size:  1.05rem; }
 
 a {
   color:#C30000;
@@ -201,9 +201,9 @@ li { font-weight: 200; }
     background: none;
   }
 
-  p {
+  p, li {
     font-size: 12pt;
-    line-height: 1.5;
+    line-height: 1.525;
   }
 
   p, table {
@@ -224,13 +224,12 @@ li { font-weight: 200; }
   h3, h4 { font-size: 14pt; }
   strong { font-weight: 400; }
 
-  td { padding: 2pt 0; }
+  td { padding: 1.5pt 0; }
 
   .tag-line {
     font-size: 14pt;
     margin-top: 0;
   }
-
 
   .level2, .level3 {
     break-inside: avoid;
@@ -276,6 +275,7 @@ li { font-weight: 200; }
   #about-me { display: none; }
   #personal h2 { margin-top: 0; }
   #personal td:first-child, #contact td:first-child { font-weight: 400; }
+  #personal table { margin: 0; }
   #lectures-given li:nth-child(n+6){ display: none; }
 
   #education strong::after, #open-source-projects strong::after {
@@ -325,6 +325,7 @@ li { font-weight: 200; }
 
   footer {
     float: footnote;
+    text-align: right;
     margin: 0!important;
   }
 
