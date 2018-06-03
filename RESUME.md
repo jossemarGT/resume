@@ -1,6 +1,6 @@
 ## About me
 
-I am a maker who truly enjoys to learn, teach, create and experiment. I believe 
+I am a maker who truly enjoys to learn, teach, create and experiment. I believe
 that no one can become "an expert" by themselves.
 
 ## Personal
@@ -59,10 +59,10 @@ Website                 | <http://jossemargt.com>
 
 ## Lectures Given
 
+- **[Concept Driven Infrastructure](https://jossemargt.github.io/pandoc-slides/static/concept-driven-infrastructure)** - DevOps Guatemala, Guatemala City, May. 2018
 - **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
 - **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
 - **Intrapreneurship!** - Xoom a Paypal Service, Guatemala City, May. 2015
-- **Javacript for non devlopers** - Xoom a Paypal Service, Guatemala City, May. 2015
 - **¿Donde está mi jQuery?** - Javacript Community (js.gt), Guatemala City, Mar. 2015
 - **Valuación Tecnológica** - Centro Municipal de Emprendimiento, Guatemala City, Nov. 2014
 - **[Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/)** - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
@@ -70,7 +70,6 @@ Website                 | <http://jossemargt.com>
 ## Open Source Projects
 
 - **[SimplePCMS](https://github.com/jossemargt/SimplePCMS)** - Simple Programming Contest Management System. No chroot, no LXC just playing old fashion with string diff.
-- **[go-reveal](https://github.com/jossemarGT/go-reveal)** - A small tool for those who want to impress with a shiny reveal.js slide deck by just writing a markdown file.
 - **[cookie-twist](https://github.com/jossemarGT/cookie-twist)** - Java secure cookies with a signed twist.
 
 ## Interests and Activities
