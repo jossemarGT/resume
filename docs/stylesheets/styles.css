@@ -276,7 +276,7 @@ li { font-weight: 200; }
   #personal h2 { margin-top: 0; }
   #personal td:first-child, #contact td:first-child { font-weight: 400; }
   #personal table { margin: 0; }
-  #lectures-given li:nth-child(n+6){ display: none; }
+  #given-talks li:nth-child(n+6){ display: none; }
 
   #education strong::after, #open-source-projects strong::after {
     display: none;
@@ -287,7 +287,7 @@ li { font-weight: 200; }
   h3 a::after { font-size: 12pt; }
 
   #skills p { margin: 3pt 0 0; }
-  #lectures-given a::after, #contact a::after {
+  #given-talks a::after, #contact a::after {
     content: '';
   }
 
@@ -314,7 +314,7 @@ li { font-weight: 200; }
     font-weight: 200;
   }
 
-  #lectures-given li, #interests-and-activities li {
+  #given-talks li, #interests-and-activities li {
     font-weight: 200;
   }
 

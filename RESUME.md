@@ -26,13 +26,13 @@ Website                 | <http://jossemargt.com>
 
 | **Xoom, a Paypal Service**
 | *Senior Infrastructure Tooling Engineer - MTS1*
-| Started as a developer and quickly involved with infrastructure matters as an Infrastructure Tooling team member, with the ultimate goal of *reducing the software development cycle time from whiteboard to production* by automating common task and re-defining the deployment model using immutable infrastructure and continuous delivery concepts within a hybrid cloud.
+| Working as Infrastructure Tooling team member, with the ultimate goal of *reducing the software development cycle time from whiteboard to production* by automating common task, re-structuring human processes and defining nre deployment models using immutable infrastructure and continuous delivery concepts within a hybrid cloud.
 
 ### Jan. 2014 - Dec. 2014
 
 | **Sait Nao**
 | *Co-Founder*
-| I took the journey of raising a startup that had the main goal of helping small businesses to enhance their online presence, easily and fast in a self service manner.
+| Taking the challenge of raising a startup that had the main goal of helping small businesses to enhance their online presence, easily and fast with a self served experience.
 
 ### Dec. 2010 - Mar. 2015
 
@@ -57,26 +57,27 @@ Website                 | <http://jossemargt.com>
 - rspect, beaker, servespec, karma, jazmine, spock, junit
 - mongoDB, maribaDB, PostgreSQL
 
-## Lectures Given
+## Given talks
 
+- **[Microservices and you](https://jossemargt.github.io/pandoc-slides/static/microservices-and-you)** - Universidad de San Carlos de Guatemala, Guatemala City, Sep. 2018 
 - **[Concept Driven Infrastructure](https://jossemargt.github.io/pandoc-slides/static/concept-driven-infrastructure)** - DevOps Guatemala, Guatemala City, May. 2018
 - **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
 - **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
-- **Intrapreneurship!** - Xoom a Paypal Service, Guatemala City, May. 2015
 - **¿Donde está mi jQuery?** - Javacript Community (js.gt), Guatemala City, Mar. 2015
 - **Valuación Tecnológica** - Centro Municipal de Emprendimiento, Guatemala City, Nov. 2014
 - **[Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/)** - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
 
 ## Open Source Projects
 
-- **[SimplePCMS](https://github.com/jossemargt/SimplePCMS)** - Simple Programming Contest Management System. No chroot, no LXC just playing old fashion with string diff.
+- **[CMS Boxes](https://github.com/jossemarGT/cms-boxes)** - A development environment to work and hack around [CMS platform](https://github.com/cms-dev/cms)
 - **[cookie-twist](https://github.com/jossemarGT/cookie-twist)** - Java secure cookies with a signed twist.
+- **[CMS Sao](https://github.com/jossemarGT/cms-sao)** - A microservice that orbits around CMS and exposes entries and scoring related entities as Restful API resources 
 
 ## Interests and Activities
 
 - Creating new stuff! (as code) @[jossemarGT](http://github.com/jossemargt)
-- GNU Linux (Debian/Arch/OpenSuse) user
-- Open Source Projects
+- GNU Linux (Debian/Arch/Open Suse) user
+- Open Source
 - Entrepreneurship
 - Teaching
 - Research and development
