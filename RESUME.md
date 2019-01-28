@@ -3,13 +3,13 @@
 I am a maker who truly enjoys to learn, teach, create and experiment. I believe
 that no one can become "an expert" by themselves.
 
-<!-- -->                | <!-- -->
----                     | ---
-Skype                   | jossemar27
-Email                   | jossemargt@gmail.com
-Website                 | <http://jossemargt.com>
-Github                  | <https://github.com/jossemarGT>
-Languages               | Spanish (Native), English (Advanced)
+| <!-- -->                | <!-- --> 
+| ---                     | ---
+| Skype                   | jossemar27
+| Email                   | jossemargt@gmail.com
+| Website                 | <http://jossemargt.com>
+| Github                  | <https://github.com/jossemarGT>
+| Languages               | Spanish (Native), English (Advanced)
 
 ## Work Experience
 
