@@ -56,56 +56,43 @@ td {
 li { font-weight: 200; }
 
 #main-header {
-  background-color: #171717;
-  color: #fff;
-  border: 1px solid #000;
-  border-radius: 4px;
-  padding: 30px 25px;
-  margin: 30px 25px 0 0;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
+  padding: 0 0 5px;
+  margin: 30px 0 0 0;
+  border-bottom: 1px solid #ccc;
 }
 
 .title {
+  display: inline-block;
   font-family: 'Arvo', sans-serif;
-  font-size: 30px;
   font-weight: 400;
-  line-height: 1.3em;
   border-bottom: none;
   margin: 0;
-  color: #fff;
+}
+
+.title::after {
+  display: inline-block;
+  font-family:Lato,Helvetica,sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  margin: 0 2px 0 4px;
+  content: '\203A';
 }
 
 .tag-line {
+  display: inline-block;
   font-family:Lato,Helvetica,sans-serif;
   font-size: 20px;
   font-weight: 100;
   border-bottom: none;
-  margin: 10px 0 20px;
-  color: #fff;
-}
-
-#main-header .level2 h2, #main-header .level2 a {
-  color: #fff;
-}
-
-#main-header table {
-  border: none;
-  margin-bottom: 32px;
-  text-align: left;
- }
-
-
-#main-header td:first-child {
-  font-weight: bold;
-}
-
-#personal thead, #contact thead {
-  display: none;
+  margin: 0;
 }
 
 #main-content {
-  margin: 30px 0 10px;
+  margin: 0 0 10px;
+}
+
+#main-content h1 {
+  display: none;
 }
 
 #main-content h2 {
@@ -118,6 +105,18 @@ li { font-weight: 200; }
 
 #main-content h3 + p {
   margin-top: 5px;
+}
+
+.level3 strong + br {
+  display: none;
+  margin: 0;
+}
+
+
+.level3 strong::after {
+  display: inline-block;
+  margin: 0 2px 0 4px;
+  content: '\203A';
 }
 
 .level2 p, .level3 p, .level3 ul {
@@ -186,16 +185,10 @@ li { font-weight: 200; }
   border-right-color: #444;
 }
 
-@media only screen and (min-width: 45em) {
-  #about-me h2 {
-    margin-top: 30px
-  }
-}
-
 @media print {
 
   body {
-    padding:0.4in;
+    padding:0 0.4in;
     font-size: 12pt;
     color:#444;
     background: none;
@@ -226,6 +219,12 @@ li { font-weight: 200; }
 
   td { padding: 1.5pt 0; }
 
+  #main-header { margin: 0; }
+
+  .title, .tag-line { display: block; }
+
+  .title::after { display: none; }
+
   .tag-line {
     font-size: 14pt;
     margin-top: 0;
@@ -247,16 +246,7 @@ li { font-weight: 200; }
   }
 
   .level3 strong::after {
-    display: inline-block;
     margin: 0 2pt 0 4pt;
-    content: '\203A';
-  }
-
-  #main-header {
-    border: none;
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
   }
 
   #main-content {
@@ -267,15 +257,9 @@ li { font-weight: 200; }
     margin-top: 18pt;
   }
 
-  #main-header, h1, h2, a {
-    color: #444!important;
-  }
+  table { margin: 0; }
+  table td:first-child { font-weight: 400; }
 
-  /* Printed version should be shorter :) */
-  #about-me { display: none; }
-  #personal h2 { margin-top: 0; }
-  #personal td:first-child, #contact td:first-child { font-weight: 400; }
-  #personal table { margin: 0; }
   #given-talks li:nth-child(n+6){ display: none; }
 
   #education strong::after, #open-source-projects strong::after {
@@ -318,7 +302,7 @@ li { font-weight: 200; }
     font-weight: 200;
   }
 
-  .no-print, strong + br, #advanced-beginner {
+  .no-print {
     display: none;
     margin: 0;
   }
