@@ -3,6 +3,7 @@
 set -euo pipefail
 
 GOAL=${1-default}
+SRC_PATH=${SRC_PATH-$(pwd)}
 BUILD_DATE=$(date +%B\ %d,\ %Y)
 TITLE=$(sed -n -e "s/^title:[[:space:]]*'\([^']\+\).*'/\1/p" docs/configuration.yaml)
 
@@ -11,7 +12,7 @@ TITLE=$(sed -n -e "s/^title:[[:space:]]*'\([^']\+\).*'/\1/p" docs/configuration.
 # container
 generate_page () {
   echo  ":: Generating ${TITLE} Page"
-  docker run -v "$(pwd)":/tmp/source -w /tmp/source --rm portown/alpine-pandoc pandoc \
+  docker run -v "${SRC_PATH}":/tmp/source -w /tmp/source --rm portown/alpine-pandoc pandoc \
         --verbose --fail-if-warnings --standalone --wrap=none --section-divs --no-highlight \
         --from markdown_github+yaml_metadata_block+auto_identifiers+smart-hard_line_breaks \
         --to html5 --template docs/resume.template --output docs/index.html \
@@ -31,9 +32,9 @@ bump_date () {
 generate_pdf () {
   [ -d dist ] || mkdir dist
   echo  ":: Generating ${TITLE} PDF"
-  docker run -v "$(pwd)":/tmp/source -w /tmp/source --rm madnight/docker-alpine-wkhtmltopdf \
+  docker run -v "${SRC_PATH}":/tmp/source -w /tmp/source --rm madnight/docker-alpine-wkhtmltopdf \
         --title "${TITLE}" --page-size Letter --no-background --print-media-type \
-        --user-style-sheet docs/stylesheets/wkhtmltopdf.css --viewport-size 520px \
+        --user-style-sheet docs/stylesheets/wkhtmltopdf.css \
         docs/index.html dist/jossemargt-resume.pdf
 }
 
