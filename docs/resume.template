@@ -54,13 +54,13 @@ $endfor$
   <body>
     <div class="container">
       <div class="row">
-        <header id="main-header" class="col-5">
-          <hgroup class="center">
+        <header id="main-header" class="col-12">
+          <hgroup>
             <h1 class="title">$website_title$</h1>
             <h2 class="tag-line">$website_tagline$</h2>
           </hgroup>
         </header>
-        <section id="main-content" class="col-7">
+        <section id="main-content" class="col-12">
 
 $for(include-before)$
 $include-before$
@@ -85,9 +85,9 @@ $endfor$
       </div>
     </div>
     <script>
-      (function(w,d,u){
+      (function(w,d){
         w.fixBreaklines(d);
-        w.appendToSidebar(d, ['personal', 'contact']);
+        w.evenTables(d);
       })(window, document)
     </script>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->

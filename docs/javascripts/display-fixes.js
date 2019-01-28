@@ -17,21 +17,6 @@ window.fixScale = function (doc) {
   }
 }
 
-window.appendToSidebar = function (doc, ids) {
-  if (window.innerWidth < 540) {
-    return
-  }
-
-  var sidebar = doc.getElementById('main-header')
-
-  ids.forEach(function (id) {
-    var elem = doc.getElementById(id)
-    var clone = elem.cloneNode(true)
-    sidebar.appendChild(clone)
-    elem.remove()
-  })
-}
-
 window.fixBreaklines = function (doc) {
   var paragraphs = Array.prototype.slice.call(doc.getElementsByTagName('p'))
   var pipeRegx = /\|/g
@@ -39,4 +24,34 @@ window.fixBreaklines = function (doc) {
   paragraphs.forEach(function (e) {
     e.innerHTML = e.innerHTML.replace('|', '').replace(pipeRegx, '<br/>')
   })
+}
+
+window.evenTables = function (doc) {
+  var tables = Array.prototype.slice.call(doc.getElementsByTagName('table'))
+
+  tables.forEach(function (elem) {
+    fixTable(doc, elem)
+  })
+}
+
+var fixTable = function(doc, table) {
+  var newTbody = doc.createElement("tbody")
+  var oldTbody = table.getElementsByTagName('tbody')[0]
+  var cells = Array.prototype.slice.call(oldTbody.getElementsByTagName('td'))
+
+  var rowHolder = doc.createElement("tr")
+  cells.forEach(function(c, i){
+    rowHolder.appendChild(c.cloneNode(true))
+
+    if ( (i+1) % 4 === 0 ) {
+      newTbody.appendChild(rowHolder)
+      rowHolder = doc.createElement("tr")
+    }
+  })
+
+  if (rowHolder.hasChildNodes()) {
+    newTbody.appendChild(rowHolder)
+  }
+
+  table.replaceChild(newTbody, oldTbody)
 }
