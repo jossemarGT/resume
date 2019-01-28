@@ -3,8 +3,8 @@
 # ==============================================================================
 #                                 WEBSITE HEADER
 # ==============================================================================
-website_title:    'Jossemar Cordero'
-website_tagline:  'Software engineer, maker and maddo scientisto'
+website_title:    'Jonnatan Jossemar Cordero'
+website_tagline:  'Software engineer, DevOps advocate and maker'
 # ==============================================================================
 #                                  GITHUB LINKS
 # ==============================================================================
@@ -15,16 +15,15 @@ github_reponame: resume
 # ==============================================================================
 title: 'jossemarGT résumé'
 lang:   en
-date:   September 09, 2018
+date:   January 27, 2019
 author:
-  - Jossemar Cordero
+  - Jonnatan Jossemar Cordero
 description: 'jossemargt resume'
 keywords:
   - resume
   - cv
   - software engineer
   - devops
-  - developer
 # ==============================================================================
 #                        CUSTOM HTML TO INJECT IN HEADER
 # ==============================================================================
