@@ -31,11 +31,11 @@ that no one can become "an expert" by themselves.
 
 ## Skills
 
-- git, puppet, Docker, packer, Terraform, Jenkins, Jenkins DSL's (Pipeline and Job)
-- Javascript, groovy, Go (golang), Java (J2SE), shell script (bash), Python, Ruby
+- git, Puppet, Docker, Packer, Terraform, Jenkins, Jenkins DSL's (Pipeline and Job)
+- Javascript, Go (golang), groovy, Java, shell script (bash), Python, Ruby
 - GNU Linux system administration, RESTFUL API design, Jenkins administration
 - kubernetes, etcd, zookeeper, systemd, gradle, maven
-- node.js, hapi.js, sails.js, angular.js, angular, ionic, cordova, less, sass
+- node.js, angular.js, angular, ionic, cordova, less, sass
 - rspect, beaker, servespec, karma, jazmine, spock, junit
 - mongoDB, maribaDB, PostgreSQL
 
