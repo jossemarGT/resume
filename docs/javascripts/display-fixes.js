@@ -27,6 +27,10 @@ window.fixBreaklines = function (doc) {
 }
 
 window.evenTables = function (doc) {
+  if (window.innerWidth < 540) {
+    return
+  }
+
   var tables = Array.prototype.slice.call(doc.getElementsByTagName('table'))
 
   tables.forEach(function (elem) {
