@@ -1,9 +1,9 @@
 # Jonnatan Jossemar Cordero
 
-I am a maker who truly enjoys to learn, teach, create and experiment. I believe
-that no one can become "an expert" by themselves.
+I am a maker who enjoys to learn, teach and experiment. I believe that no one
+can become "an expert" by themselves.
 
-| <!-- -->                | <!-- --> 
+| <!-- -->                | <!-- -->
 | ---                     | ---
 | Skype                   | jossemar27
 | Email                   | jossemargt@gmail.com
@@ -20,21 +20,23 @@ that no one can become "an expert" by themselves.
 | Working as Infrastructure Tooling team member, with the ultimate goal of *reducing the software development cycle time from whiteboard to production* by automating common task, re-structuring human processes and defining deployment models using immutable infrastructure and continuous delivery concepts within a hybrid cloud.
 
 ### Sait Nao
+
 | **Co-Founder**
 | Jan. 2014 - Dec. 2014
 | Taking the challenge of raising a startup that had the main goal of helping small businesses to enhance their online presence, easily and fast with a self served experience.
 
 ### jossemarGT
+
 | **Consultant and Freelance Full Stack/Hybrid Mobile Developer**
 | Dec. 2010 - Mar. 2015
 | Working in several projects regardless its programming language.
 
 ## Skills
 
-- git, Puppet, Docker, Packer, Terraform, Jenkins, Jenkins DSL's (Pipeline and Job)
-- Javascript, Go (golang), groovy, Java, shell script (bash), Python, Ruby
-- GNU Linux system administration, RESTFUL API design, Jenkins administration
-- kubernetes, etcd, zookeeper, systemd, gradle, maven
+- Javascript, Go (golang), groovy, Java, POSIX shell scripting (bash), Python, Ruby
+- Puppet, Ansible, Docker, Packer, Terraform, git, gradle, maven
+- GNU Linux system administration, REST APIs,Jenkins, Jenkins DSL's (Pipeline and Job)
+- kubernetes, etcd, zookeeper, systemd, service mesh, OCI containers
 - node.js, angular.js, angular, ionic, cordova, less, sass
 - rspect, beaker, servespec, karma, jazmine, spock, junit
 - mongoDB, maribaDB, PostgreSQL
@@ -46,8 +48,9 @@ that no one can become "an expert" by themselves.
 | Universidad de San Carlos de Guatemala, Guatemala City
 | November 2013
 
-## Given talks
+## Talks
 
+- **[The DevOps Paradox](https://jossemargt.github.io/pandoc-slides/static/the-devops-paradox)** - Tech Meet Up, Guatemala City, Jul. 2019
 - **[Microservices and you](https://jossemargt.github.io/pandoc-slides/static/microservices-and-you)** - Universidad de San Carlos de Guatemala, Guatemala City, Sep. 2018
 - **[Concept Driven Infrastructure](https://jossemargt.github.io/pandoc-slides/static/concept-driven-infrastructure)** - DevOps Guatemala, Guatemala City, May. 2018
 - **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
@@ -58,16 +61,16 @@ that no one can become "an expert" by themselves.
 
 ## Open Source Projects
 
-- **[CMS Boxes](https://github.com/jossemarGT/cms-boxes)** - A development environment to work and hack around [CMS platform](https://github.com/cms-dev/cms)
+- **[CMS Orbits](https://github.com/cms-orbits)** - Exposing [CMS platform](https://github.com/cms-dev/cms) as microservices
+- **[CMS Docker images](https://github.com/cms-orbits/cms-docker-images)** -  Un-official [CMS platform](https://github.com/cms-dev/cms) docker images
+- **[CMS Boxes](https://github.com/cms-orbits/cms-boxes)** - A development environment to work and hack around [CMS platform](https://github.com/cms-dev/cms)
 - **[cookie-twist](https://github.com/jossemarGT/cookie-twist)** - Java secure cookies with a signed twist.
-- **[CMS Sao](https://github.com/jossemarGT/cms-sao)** - A microservice that orbits around CMS and exposes entries and scoring related entities as Restful API resources
 
 ## Interests and Activities
 
 - Creating new stuff! (as code) @[jossemarGT](http://github.com/jossemargt)
 - GNU Linux (Debian/Arch/Open Suse) user
-- Open Source
-- Entrepreneurship
-- Teaching
+- Technology startups and entrepreneurship
 - Research and development
 - Automate all the things!
+- Stand Up commedy (I bet you didn't see that coming)

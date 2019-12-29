@@ -24,7 +24,10 @@ h1 { font-size: 30px; }
 h2 { font-size: 24px; }
 h3 { font-size: 20px; }
 
-p, li { font-size:  1.05rem; }
+p, li {
+  font-size:  1.15rem;
+  line-height: 1.7;
+}
 
 a {
   color:#C30000;
