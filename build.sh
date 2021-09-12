@@ -21,7 +21,6 @@ generate_page () {
 ##
 # Bumps last modified date in pandoc template configuration
 bump_date () {
-  # TODO: Bump only if RESUME.md has changed
   sed -i "s/date:.*/date:   ${BUILD_DATE}/" docs/configuration.yaml
 }
 
@@ -81,6 +80,9 @@ case "$GOAL" in
     ;;
   ci-gh-page-bump)
     git_tag_bump
+    ;;
+  ci-gh-page-publish)
+    git_publish
     ;;
   bump-date)
     bump_date

@@ -1,17 +1,17 @@
 # jossemarGT résumé
 
-It seems the right word is [résumé](http://english.stackexchange.com/a/61341)
+It seems the right word is [résumé](http://english.stackexchange.com/a/61341),
 but it can be called CV as well `¯\_(ツ)_/¯`, either case you can read mine in a
-plain old markdown fashion [here on github](RESUME.md), download it as PDF
+plain old markdown fashion [here on GitHub](RESUME.md), download it as PDF
 from the [releases page](https://github.com/jossemarGT/resume/releases/latest)
-or even take a look to the more elegant version
+or even take a look to the more refined version
 [here](http://jossemargt.github.io/resume).
 
 ## FAQ
 
 ### Why did you write your resume in markdown?
 
-Because is easy to maintain and publish it as plain text on github :octocat:
+Because it is easier to maintain and publish it as plain text on GitHub :octocat:
 
 ### How did you made it?
 
@@ -22,14 +22,14 @@ Because is easy to maintain and publish it as plain text on github :octocat:
 
 ### I want to write one like yours, may I fork this repository?
 
-Since this is a public repository you could do it, but taking in account that
-it has my information the idea sounds kind of creepy... So, how about using
+I would rather suggest using
 [tajmone/gh-themes-magick](https://github.com/tajmone/gh-themes-magick)
-pandoc ported gh-themes as boilerplate instead? (just like I did).
+pandoc ported gh-themes as boilerplate instead, then take it from there.
 
 ### Can I haz docz?
 
-Sure thing, these resources helped me out to create everything you see in this repository
+Sure thing, these resources helped me out to create everything you see in this
+repository
 
 - gh-themes-magick pandoc ports webesite -> <https://tajmone.github.io/gh-themes-magick/>
 - Pandoc's manual -> <https://pandoc.org/MANUAL.html>
@@ -42,5 +42,4 @@ Sure thing, these resources helped me out to create everything you see in this r
 - [Dinky](https://github.com/broccolini/dinky) gh-theme by @[broccolini](https://github.com/broccolini)
 - [gh-themes-magick](https://github.com/tajmone/gh-themes-magick) pandoc ports by @[tajmone](https://github.com/tajmone)
 - [Simple Grid](https://github.com/zachacole/Simple-Grid) css grid by @[zachacole](https://github.com/zachacole)
-- [Pandoc 2.0.2 + Alpine](https://hub.docker.com/r/portown/alpine-pandoc/) Docker image by @[portown](https://github.com/portown)
 - [Wkthmltopdf 0.12.4-dev + Alpine](https://hub.docker.com/r/madnight/docker-alpine-wkhtmltopdf/) Docker image by @[madnight](https://github.com/madnight)
