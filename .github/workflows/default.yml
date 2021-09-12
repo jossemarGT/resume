@@ -25,7 +25,7 @@ jobs:
         with:
           args: >-
             --page-size Letter --no-background --print-media-type
-            --user-style-sheet docs/stylesheets/wkhtmltopdf.css -T 20 -R 13 -B 13 -L 13
+            --user-style-sheet docs/stylesheets/wkhtmltopdf.css -T 15 -R 10 -B 10 -L 10
             docs/index.html dist/jossemargt-resume.pdf
       - uses: actions/upload-artifact@v2
         with:
