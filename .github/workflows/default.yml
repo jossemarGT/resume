@@ -1,0 +1,35 @@
+name: Generate resume artifacts
+
+on: push
+
+jobs:
+  generate_artifacts_pandoc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: CI environment setup
+        run: |
+          ./build.sh ci-setup
+      - uses: docker://pandoc/latex:2.9
+        name: Generate HTML resume
+        with:
+          args: >-
+            --verbose --fail-if-warnings --standalone --wrap=none --section-divs --no-highlight
+            --from markdown_github+yaml_metadata_block+auto_identifiers+smart-hard_line_breaks
+            --to html5 --template docs/resume.template --output docs/index.html
+            ./RESUME.md docs/configuration.yaml
+      - uses: docker://madnight/docker-alpine-wkhtmltopdf
+        name: Generate PDF resume
+        with:
+          args: >-
+            --page-size Letter --no-background --print-media-type
+            --user-style-sheet docs/stylesheets/wkhtmltopdf.css -T 20 -R 13 -B 13 -L 13
+            docs/index.html dist/jossemargt-resume.pdf
+      - uses: actions/upload-artifact@v2
+        with:
+          name: built-resume
+          retention-days: 1
+          path: |
+            dist/
+            docs/
+
