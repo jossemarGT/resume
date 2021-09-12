@@ -69,15 +69,7 @@ git_tag_bump () {
 ##
 # Push latest changes and tags (vendor specific implementation)
 git_publish () {
-  set +x # Just in case
-  if [[ $TRAVIS_EVENT_TYPE != 'pull_request' ]]; then
-    echo ':: Git publish'
-    # Push latest commit to master branch and the tag associated with it
-    git push "https://${GH_TOKEN}:x-oauth-basic@github.com/${TRAVIS_REPO_SLUG}" \
-              --quiet HEAD:master
-    return 0
-  fi
-  echo ':: Git publish -> Nothing to do'
+  git push
 }
 
 ##
@@ -86,11 +78,12 @@ case "$GOAL" in
   ci-setup)
     [ -d dist ] || mkdir dist
     git_setup
-    bump_date
     ;;
-  ci-git-push)
+  ci-gh-page-bump)
     git_tag_bump
-    git_publish # A fenced git push
+    ;;
+  bump-date)
+    bump_date
     ;;
   default)
     bump_date
