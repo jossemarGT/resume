@@ -18,9 +18,9 @@ but instead grows alongside those around them.
 
 | **Infrastructure Engineering Manager - MTS2**
 | Oct. 2020 - Currently
-| Now is the time to support our team as a corporate leader while Xoom's CI/CD
+| Now is the time to support our team as a corporative leader while Xoom's CI/CD
 platforms and processes converge with PayPal ones. Helping my team to grow and
-learning alongside them is the best part.
+learning alongside them has been the best part.
 
 ### Xoom, a Paypal Service
 
