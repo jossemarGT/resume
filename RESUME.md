@@ -17,10 +17,10 @@ but instead grows alongside those around them.
 ### PayPal
 
 | **Infrastructure Engineering Manager - MTS2**
-| Oct. 2020 - Currently
-| Now is the time to support our team as a corporative leader while Xoom's CI/CD
-platforms and processes converge with PayPal ones. Helping my team to grow and
-learning alongside them has been the best part.
+| Sep. 2020 - Currently
+| Supporting the Build and Orchestration team as a corporative leader while
+driving Xoom's CI/CD platforms and processes converge with PayPal. I must say,
+helping my team to grow and learning alongside them has been the best part.
 
 ### Xoom, a Paypal Service
 
@@ -38,7 +38,11 @@ delivery concepts within a hybrid cloud.
 | Jan. 2014 - Dec. 2014
 | Alongside a college friend, we took the challenge of raising a startup that
 had the primary goal of helping small businesses to enhance their online
-presence quickly and fast with a self-serve experience.
+presence quickly and fast with a self-serve experience. The platform was a
+website builder that retrieved all the required content and metadata from the
+small business' Facebook page, and then it was a matter of putting a domain in
+front of it.
+
 
 ### jossemarGT
 
@@ -82,7 +86,7 @@ presence quickly and fast with a self-serve experience.
 ## Interests and Activities
 
 - Creating new stuff! (as code) @[jossemarGT](http://github.com/jossemargt)
-- GNU Linux (Debian/Arch/Open Suse) user
+- GNU Linux (Debian/Arch/Open Suse/Ubuntu) user
 - Technology startups and entrepreneurship
 - Research and development
 - Automate all the things!
