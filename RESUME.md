@@ -1,23 +1,32 @@
 # Jonnatan Jossemar Cordero
 
-I am a maker who truly enjoys learning, teaching, creating, and experimenting.
-I believe a sound engineer does not solely focus on their tech-related skills
-but instead grows alongside those around them.
+I am a maker who truly enjoys learning, teaching, creating, and experimenting. I
+believe sound engineers do not solely focus on their tech-related skills but
+instead grow alongside those around them.
 
 | <!-- -->                | <!-- -->
 | ---                     | ---
 | Skype                   | jossemar27
 | Email                   | jossemargt@gmail.com
-| Website                 | <http://jossemargt.com>
+| Website                 | <https://jossemargt.com>
 | Github                  | <https://github.com/jossemarGT>
 | Languages               | Spanish (Native), English (Advanced)
 
 ## Work Experience
 
+### 3Pillar Global / SUSE
+
+| **DevOps Techlead**
+| Dec. 2021 - Currently
+| As a 3Pillar DevOps consultant, I had the opportunity to help the
+[SUSE Rancher](https://www.suse.com/products/suse-rancher/) team automate their
+release and delivery processes for [RKE2](https://docs.rke2.io/), a
+government-level secure and FIPS compliant Kubernetes distribution.
+
 ### PayPal
 
 | **Infrastructure Engineering Manager - MTS2**
-| Sep. 2020 - Currently
+| Sep. 2020 - Nov. 2021
 | Supporting the Build and Orchestration team as a corporative leader while
 driving Xoom's CI/CD platforms and processes converge with PayPal. I must say,
 helping my team to grow and learning alongside them has been the best part.
@@ -53,10 +62,10 @@ front of it.
 ## Skills
 
 - [Certified Kubernetes Adminitrator](https://www.credly.com/badges/b0e6f8e1-5480-4d86-98a3-68a77e78b88a), [Certified Scrum Product Owner](https://bcert.me/bc/html/show-badge.html?b=bguqpmhl)
-- Javascript (node.js), Go (golang), groovy, Java, POSIX shell scripting (bash), Ruby, Python
+- JavaScript (node.js/TypeScript), Go (golang), groovy, Java, POSIX shell scripting (bash), Ruby, Python
 - Puppet, Ansible, Docker, Packer, Terraform, systemd, git, gradle, maven
-- GNU Linux system administration, REST APIs, Jenkins DSL's (Pipeline and Job)
-- angular.js, ionic, cordova, less, sass, rspect, beaker, servespec, karma, jazmine, spock, junit
+- GNU Linux system administration, REST, Jenkins DSL's (Pipeline and Job)
+- Angular, Ionic, cordova, less, sass, rspect, beaker, servespec, karma, jazmine, spock, junit
 - MongoDB, MaribaDB, PostgreSQL, etcd, Zookeeper
 
 ## Education
@@ -68,11 +77,11 @@ front of it.
 
 ## Talks
 
-- **[The DevOps Paradox](https://jossemargt.github.io/pandoc-slides/static/the-devops-paradox)** - Tech Meet Up, Guatemala City, Jul. 2019
+- **[kiss4slides](https://jossemargt.github.io/pandoc-slides/static/kiss4slides)** - 3Pillar Tech nuggets, remotely, Dec. 2021
+- **[The DevOps Paradox](https://jossemargt.github.io/pandoc-slides/static/the-devops-paradox)** - Xoom Tech Meet Up, Guatemala City, Jul. 2019
 - **[Microservices and you](https://jossemargt.github.io/pandoc-slides/static/microservices-and-you)** - Universidad de San Carlos de Guatemala, Guatemala City, Sep. 2018
 - **[Concept Driven Infrastructure](https://jossemargt.github.io/pandoc-slides/static/concept-driven-infrastructure)** - DevOps Guatemala, Guatemala City, May. 2018
 - **What is DevOps?** - Universidad de San Carlos de Guatemala, Jun. 2016
-- **Java applications deployment with docker** - Java Day, Guatemala City, Nov. 2015
 - **[Lo que no me enseñaron en la USAC acerca de negocios](https://prezi.com/pueqzdtyv4ck/lo-que-no-me-ensenaro-en-la-usac-acerca-de-negocios/)** - Universidad de San Carlos de Guatemala, Guatemala City, Nov. 2014
 
 ## Open Source Projects
@@ -90,4 +99,5 @@ front of it.
 - Technology startups and entrepreneurship
 - Research and development
 - Automate all the things!
-- Broadcasting on radio or doing stand up commedy (and that's not a joke)
+- Broadcasting on radio
+- Doing stand up commedy (and... that's not a joke)

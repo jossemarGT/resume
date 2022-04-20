@@ -15,15 +15,15 @@ github_reponame: resume
 # ==============================================================================
 title: 'jossemarGT résumé'
 lang:   en
-date:   September 19, 2021
+date:   April 19, 2022
 author:
   - Jonnatan Jossemar Cordero
 description: 'jossemargt resume'
 keywords:
   - resume
   - cv
-  - software engineer
-  - devops
+  - software engineering manager
+  - devops consultant
 # ==============================================================================
 #                        CUSTOM HTML TO INJECT IN HEADER
 # ==============================================================================

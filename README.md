@@ -22,7 +22,7 @@ Because it is easier to maintain and publish it as plain text on GitHub :octocat
 
 ### I want to write one like yours, may I fork this repository?
 
-I would rather suggest using
+Instead, I suggest using
 [tajmone/gh-themes-magick](https://github.com/tajmone/gh-themes-magick)
 pandoc ported gh-themes as boilerplate instead, then take it from there.
 
