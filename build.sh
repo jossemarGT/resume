@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 # shellcheck disable=SC2155
-set -euo pipefail
+set -eu
 
 GOAL=${1-default}
 SRC_PATH=${SRC_PATH-$(pwd)}
@@ -42,7 +42,7 @@ generate_pdf () {
 ##
 # Setup git client in CI environment
 git_setup () {
-  if [[ -z $(git config --local user.name) ]]; then
+  if [ -z "$(git config --local user.name)" ]; then
     echo ':: Setup CI git user and email'
     git config --local user.name 'CI Bot'
     git config --local user.email 'no-reply@jossemargt.com'
@@ -52,13 +52,13 @@ git_setup () {
 ##
 # Commit changes on `docs` directory and tags branch's head with current date
 git_tag_bump () {
-  if [[ -z $(git --no-pager diff --numstat docs) ]]; then
+  if [ -z "$(git --no-pager diff --numstat docs)" ]; then
     echo ":: Git bump -> docs directory didn't change. SKIPPED"
     return 0
   fi
 
-  local revision=$(date +'%Y%m%d')
-  local iteration=$(git tag | grep -c "${revision}")
+  revision=$(date +'%Y%m%d')
+  iteration=$(git tag | grep -c "${revision}")
 
   git add docs
   git commit -m "Update GH Pages on ${BUILD_DATE}. [skip ci]"

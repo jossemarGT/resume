@@ -1,6 +1,9 @@
 # Distribuition directory
 dist/
 
+# Dagger pkgs
+cue.mod
+
 # Temp files
 *.DS_Store
 *.orig
