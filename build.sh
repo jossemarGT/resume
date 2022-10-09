@@ -52,16 +52,16 @@ git_setup () {
 ##
 # Commit changes on `docs` directory and tags branch's head with current date
 git_tag_bump () {
+  echo ':: Bump git tag'
   if [ -z "$(git --no-pager diff --numstat docs)" ]; then
     echo ":: Git bump -> docs directory didn't change. SKIPPED"
     return 0
   fi
 
   revision=$(date +'%Y%m%d')
-  iteration=$(git tag | grep -c "${revision}")
+  iteration=$(git --no-pager tag | grep -c "${revision}" || true)
 
-  git add docs
-  git commit -m "Update GH Pages on ${BUILD_DATE}. [skip ci]"
+  git commit -am "Update GH Pages on ${BUILD_DATE}. [skip ci]"
   git tag "${revision}-${iteration}"
 }
 
