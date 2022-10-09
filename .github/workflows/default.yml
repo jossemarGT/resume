@@ -7,58 +7,48 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Build environment setup
-        run: |
-          ./build.sh ci-setup
-          ./build.sh bump-date
-      - uses: docker://pandoc/latex:2.9
-        name: Generate HTML resume
+      - uses: actions/checkout@v3
+      - name: Build artifacts
+        uses: dagger/dagger-for-github@v3
         with:
-          args: >-
-            --verbose --fail-if-warnings --standalone --wrap=none --section-divs --no-highlight
-            --from markdown_github+yaml_metadata_block+auto_identifiers+smart-hard_line_breaks
-            --to html5 --template docs/resume.template --output docs/index.html
-            ./RESUME.md docs/configuration.yaml
-      - uses: docker://madnight/docker-alpine-wkhtmltopdf
-        name: Generate PDF resume
+          cmds: |
+            project init
+            project update
+            do print
+      - uses: actions/upload-artifact@v3
         with:
-          args: >-
-            --page-size Letter --no-background --print-media-type
-            --user-style-sheet docs/stylesheets/wkhtmltopdf.css -T 15 -R 10 -B 10 -L 10
-            docs/index.html dist/jossemargt-resume.pdf
-      - uses: actions/upload-artifact@v2
-        with:
-          name: built-resume
+          name: resume-artifacts
           retention-days: 1
           path: |
-            dist/*.pdf
-            docs/
+            dist/**/*.pdf
+            dist/**/*.html
   release:
     needs: build
     if:  ${{ contains(github.ref, 'master') }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Download latest artifacts
-        uses: actions/download-artifact@v2
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
         with:
-          name: built-resume
+          name: resume-artifacts
           path: dist
+
       - name: Pre-Release
         run: |
           ./build.sh ci-setup
-          cp dist/docs/index.html docs/index.html
+          cp dist/site/index.html docs/index.html
           ./build.sh ci-gh-page-bump
       - name: Publish PDF
-        uses: "marvinpinto/action-automatic-releases@latest"
+        uses: marvinpinto/action-automatic-releases@latest
         with:
+          prerelease: true
           automatic_release_tag: latest
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           files: |
-            dist/dist/*.pdf
+            dist/pdf/*.pdf
       - name: Plubish GH Pages
         run: |
           ./build.sh ci-gh-page-publish
