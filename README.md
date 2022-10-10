@@ -2,10 +2,9 @@
 
 It seems the right word is [résumé](http://english.stackexchange.com/a/61341),
 but it can be called CV as well `¯\_(ツ)_/¯`, either case you can read mine in a
-plain old markdown fashion [here on GitHub](RESUME.md), download it as PDF
-from the [releases page](https://github.com/jossemarGT/resume/releases/latest)
-or even take a look to the more refined version
-[here](http://jossemargt.github.io/resume).
+plain old markdown fashion [here on GitHub](RESUME.md), download it as PDF from
+the [releases page](https://github.com/jossemarGT/resume/releases/latest) or
+take a look your web browser here [here](http://jossemargt.github.io/resume).
 
 ## FAQ
 
@@ -18,13 +17,14 @@ Because it is easier to maintain and publish it as plain text on GitHub :octocat
 1. Write resume in markdown notation.
 2. `./build.sh`
 3. ???
-4. Profit
+4. Profit!
 
 ### I want to write one like yours, may I fork this repository?
 
-Instead, I suggest using
-[tajmone/gh-themes-magick](https://github.com/tajmone/gh-themes-magick)
-pandoc ported gh-themes as boilerplate instead, then take it from there.
+Oh, gee thanks! But how about using
+[tajmone/gh-themes-magick](https://github.com/tajmone/gh-themes-magick) pandoc
+themes as boilerplate instead, then take it from there. I'd be happy to review
+any PR on your repository if you have any question.
 
 ### Can I haz docz?
 
