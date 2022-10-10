@@ -68,6 +68,7 @@ git_tag_bump () {
 ##
 # Push latest changes and tags (vendor specific implementation)
 git_publish () {
+  git push origin master || true
   git push --tags || true
 }
 
