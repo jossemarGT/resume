@@ -115,7 +115,6 @@ li { font-weight: 200; }
   margin: 0;
 }
 
-
 .level3 strong::after {
   display: inline-block;
   margin: 0 2px 0 4px;
@@ -257,8 +256,6 @@ li { font-weight: 200; }
 
   table { margin: 0; }
   table td:nth-child(odd) { font-weight: 400; }
-
-  #given-talks li:nth-child(n+6){ display: none; }
 
   #education strong::after, #open-source-projects strong::after {
     display: none;

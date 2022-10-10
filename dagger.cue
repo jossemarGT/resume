@@ -60,9 +60,10 @@ dagger.#Plan & {
 						"--section-divs": true,
 						"--no-highlight": true,
 						"--wrap": "none",
-						"--from": "markdown_github+yaml_metadata_block+auto_identifiers+smart-hard_line_breaks"
-						"--to": "html5"
-						"--template": "docs/resume.template"
+						"--columns": "1000",
+						"--from": "markdown_github+yaml_metadata_block+auto_identifiers+smart-hard_line_breaks+pipe_tables",
+						"--to": "html5",
+						"--template": "docs/resume.template",
 						"--output": "docs/index.html"
 					}
 				}
@@ -104,14 +105,14 @@ dagger.#Plan & {
 					name: "wkhtmltopdf"
 					args: ["index.html", "dist/jossemargt-resume.pdf"]
 					flags: {
-						"--no-background": true
-						"--print-media-type": true
-						"--enable-local-file-access": true
-						"--page-size": "Letter"
-						"-T": "20"
-						"-R": "13"
-						"-B": "13"
-						"-L": "13"
+						"--no-background": true,
+						"--print-media-type": true,
+						"--enable-local-file-access": true,
+						"--page-size": "Letter",
+						"-T": "15",
+						"-R": "13",
+						"-B": "13",
+						"-L": "13",
 						"--user-style-sheet": "stylesheets/wkhtmltopdf.css"
 					}
 				}
