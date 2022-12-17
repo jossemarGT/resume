@@ -108,6 +108,7 @@ dagger.#Plan & {
 						"--no-background": true,
 						"--print-media-type": true,
 						"--enable-local-file-access": true,
+						"--disable-javascript": true,
 						"--page-size": "Letter",
 						"-T": "15",
 						"-R": "13",

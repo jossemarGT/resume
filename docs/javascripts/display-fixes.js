@@ -17,17 +17,8 @@ window.fixScale = function (doc) {
   }
 }
 
-window.fixBreaklines = function (doc) {
-  var paragraphs = Array.prototype.slice.call(doc.getElementsByTagName('p'))
-  var pipeRegx = /\|/g
-
-  paragraphs.forEach(function (e) {
-    e.innerHTML = e.innerHTML.replace('|', '').replace(pipeRegx, '<br/>')
-  })
-}
-
 window.evenTables = function (doc) {
-  if (window.innerWidth < 540) {
+  if (window.innerWidth >= 820) {
     return
   }
 
@@ -47,7 +38,7 @@ var fixTable = function(doc, table) {
   cells.forEach(function(c, i){
     rowHolder.appendChild(c.cloneNode(true))
 
-    if ( (i+1) % 4 === 0 ) {
+    if ( (i+1) % 2 === 0 ) {
       newTbody.appendChild(rowHolder)
       rowHolder = doc.createElement("tr")
     }

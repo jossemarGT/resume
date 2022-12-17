@@ -54,13 +54,13 @@ $endfor$
   <body>
     <div class="container">
       <div class="row">
-        <header id="main-header" class="col-12">
+        <header id="main-header">
           <hgroup>
             <h1 class="title">$website_title$</h1>
             <h2 class="tag-line">$website_tagline$</h2>
           </hgroup>
         </header>
-        <section id="main-content" class="col-12">
+        <section id="main-content">
 
 $for(include-before)$
 $include-before$
@@ -73,7 +73,7 @@ $endfor$
         </section>
       </div>
       <div class="row">
-        <footer class="col-12">
+        <footer>
           <p>
             <small>
               <a class="no-print" href="https://github.com/$github_username$/$github_reponame$/blob/master/RESUME.md">View On GitHub</a>
@@ -86,7 +86,6 @@ $endfor$
     </div>
     <script>
       (function(w,d){
-        w.fixBreaklines(d);
         w.evenTables(d);
       })(window, document)
     </script>
