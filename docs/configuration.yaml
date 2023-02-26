@@ -4,7 +4,7 @@
 #                                 WEBSITE HEADER
 # ==============================================================================
 website_title:    'Jonnatan Jossemar Cordero'
-website_tagline:  'Maker, Software Engineering Manager and DevOps Advocate'
+website_tagline:  'Maker, Lead Software Engineer and DevOps Advocate'
 # ==============================================================================
 #                                  GITHUB LINKS
 # ==============================================================================
@@ -15,15 +15,17 @@ github_reponame: resume
 # ==============================================================================
 title: 'jossemarGT résumé'
 lang:   en
-date:   April 19, 2022
+date:   February 26, 2022
 author:
   - Jonnatan Jossemar Cordero
 description: 'jossemargt resume'
 keywords:
   - resume
   - cv
-  - software engineering manager
-  - devops consultant
+  - curriculum
+  - curriculum vitae
+  - lead software engineer
+  - devops
 # ==============================================================================
 #                        CUSTOM HTML TO INJECT IN HEADER
 # ==============================================================================
