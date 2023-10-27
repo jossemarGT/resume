@@ -108,11 +108,6 @@ strong + em::before {
     width: 96%;
   }
 
-  h1, h2, h3, h4, h5 {
-    break-after: avoid;
-    page-break-after: avoid;
-  }
-
   h1 { font-size: 22pt; }
   h2 { font-size: 17pt; }
   h3, h4 { font-size: 14pt; }
@@ -142,7 +137,7 @@ strong + em::before {
 
   .level2 { margin-top: 12pt; }
 
-  .level2, .level3 {
+  .level3 {
     break-inside: avoid;
     page-break-inside: avoid;
   }
