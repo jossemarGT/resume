@@ -19,12 +19,12 @@ dagger.#Plan & {
 					"*.pdf",
 				]
 			}
-			"./dist/site": write: contents: actions.generate.generatePage.export.directories."docs"
-			"./dist/pdf": write: contents: actions.print.printPDF.export.directories."dist"
+			"./dist/site": write: contents: actions.site.generatePage.export.directories."docs"
+			"./dist/pdf": write: contents: actions.pdf.printPDF.export.directories."dist"
 		}
 	}
 	actions: {
-		generate: {
+		site: {
 			// Pull build context
 			pandoc: docker.#Pull & {
 				source: "portown/alpine-pandoc"
@@ -73,7 +73,7 @@ dagger.#Plan & {
 			}
 
 		}
-		print: {
+		pdf: {
 			// Pull build context
 			printer: docker.#Pull & {
 				source: "madnight/docker-alpine-wkhtmltopdf"
@@ -82,7 +82,7 @@ dagger.#Plan & {
 			// Prepare environment
 			_addPage: docker.#Copy & {
 				input:    printer.output
-				contents: generate.generatePage.export.directories."docs"
+				contents: site.generatePage.export.directories."docs"
 				dest: "/data"
 			}
 

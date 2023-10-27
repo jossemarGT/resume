@@ -19,6 +19,10 @@ h1,h2 {
   padding-bottom: 5px;
 }
 
+h2 + .level3 {
+  margin: 0;
+}
+
 p, li {
   font-size:  1.125rem;
   line-height: 1.7;
@@ -40,7 +44,7 @@ a:hover {
 
 table {
   width:100%;
-  margin: 15px 0 0;
+  margin: 15px 0;
 }
 
 thead { display: none; }
@@ -95,6 +99,78 @@ strong + em::before {
   text-align: justify;
 }
 
+section#work-experience {
+  float: left;
+  width: 84%;
+  margin-top: 10px;
+}
+
+section#skills {
+  float: right;
+  width: 13%;
+  margin-top: 10px;
+}
+
+section#education {
+  clear: both;
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+section#work-experience h2, section#skills h2 {
+  margin-top: 0;
+}
+
+section#skills h2, section#skills ul {
+  text-align: center;
+}
+
+section#skills ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+section#skills li {
+  display: inline;
+  padding: 0;
+  font-size: 1rem;
+}
+
+section#skills li::after {
+  content: ', ';
+}
+
+section#skills li:last-child::after {
+  content: '';
+}
+
+@media not print {
+  @media (max-width: 820px) {
+    section#work-experience {
+      float: none;
+      width: 100%;
+    }
+
+    section#skills {
+      float: none;
+      width: 100%;
+    }
+
+    section#skills h2 {
+      text-align: left;
+    }
+
+    section#skills ul {
+      text-align: justify;
+    }
+
+    section#skills li {
+      font-size:  1.125rem;
+    }
+  }
+}
+
 @media print {
   body {
     padding: 0;
@@ -129,6 +205,18 @@ strong + em::before {
 
   #main-header { margin: 0 0 5pt; }
 
+  section#work-experience {
+    width: 85%;
+  }
+
+  section#skills li {
+    font-size: 10pt;
+  }
+
+  section#education {
+    padding-top: 0;
+  }
+
   .level1 h1 + p { display: none; }
 
   .title, .tag-line { display: block; }
@@ -140,6 +228,7 @@ strong + em::before {
   .level3 {
     break-inside: avoid;
     page-break-inside: avoid;
+    margin: 0;
   }
 
   h2 ~ .level3 h3 {

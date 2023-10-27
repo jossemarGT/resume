@@ -46,7 +46,7 @@ $endif$
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-
+    <base target="_blank">
 $for(header-includes)$
     $header-includes$
 $endfor$
