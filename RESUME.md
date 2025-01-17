@@ -1,8 +1,10 @@
-# Jonnatan Jossemar Cordero
+# Jossemar Cordero
 
-I am a maker who truly enjoys learning, teaching, creating, and experimenting. I
-believe that complex problems must be solved at the human level first, and then
-we can start discussing technology.
+I enjoy working in the technology industry because it allows me to learn through
+research, experimentation, and community building. Although I prefer designing
+solutions, I value the lessons from my engineering manager days, particularly
+that we must prioritize the human aspect before addressing complex problems with
+technology.
 
 | <!-- -->      | <!-- -->              | <!-- -->      | <!-- -->
 |:---           |:---                   |:---           |:---
@@ -13,38 +15,40 @@ we can start discussing technology.
 
 ### CTO.ai
 
-**Senior Lead Platform Engineer**
+**Senior Lead Engineer**
 *Jun. 2022 - Currently*
 
-As an individual contributor, my responsibilities include designing,
-implementing, and maintaining components for our polyglot ecosystem that
-operates on top of Kubernetes and serverless platforms using various programming
-languages such as JavaScript, Go, Java, and Rust. Additionally, I keep track of
-our projects, lead cross-team communications, empower my colleagues, and strive
-to improve the platform's reliability.
+Initially, I joined the team as an engineering manager, where I had the
+opportunity to improve the engineering culture, enhance the delivery process,
+and address communication challenges within the engineering crew. Once the team
+was aligned to the company's needs, I transitioned to an individual contributor
+role, where my responsibilities included designing, implementing, and
+maintaining components for our polyglot ecosystem that operates on Kubernetes
+and serverless platforms while striving to enhance the platform’s reliability.
 
 ### 3Pillar Global / SUSE Rancher
 
 **DevOps Techlead**
 *Dec. 2021 - May 2022*
 
-As a 3Pillar DevOps consultant, I had the privilege of working with the
+As a 3Pillar DevOps consultant, I had the privilege of collaborating with the
 [SUSE Rancher](https://www.suse.com/products/suse-rancher/) team to automate
 their release and delivery procedures for [RKE2](https://docs.rke2.io/) and
 [K3S](https://k3s.io/) Kubernetes distributions. Accomplishing this required an
-extensive understanding of Kubernetes, its fundamental components, and how
-organizations manage their value stream by creating and maintaining Open Source
-Software.
+extensive understanding of Kubernetes, the existing team's delivery practices,
+and how organizations manage their value stream by creating and maintaining Open
+Source Software.
 
 ### PayPal
 
 **Infrastructure Engineering Manager - MTS2**
 *Sep. 2020 - Nov. 2021*
 
-We, the Build and Orchestration team, drove Xoom’s CI/CD platforms, practices,
-and processes to converge with PayPal. The tasks that I held in the highest
-regard were the ones that enabled my team to constantly learn, grow, improve,
-and achieve their goals.
+While leading the Build and Orchestration team, we worked to align Xoom’s CI/CD
+platforms, practices, and processes with those of PayPal. My main focus was to
+support my team in their continuous learning, growth, and delivery, which
+enabled us to keep our internal platforms fully operational for over 200
+engineers while transitioning into new ways of working.
 
 ### Xoom, a Paypal Service
 
@@ -61,28 +65,37 @@ concepts in a hybrid cloud model.
 **Co-Founder**
 *Jan. 2014 - Dec. 2014*
 
-We took on the challenge of creating a self-funded startup to help small
-businesses enhance their online presence with a simple self-serve experience.
+My business partner and I embraced the challenge of launching a self-funded
+startup focused on helping small businesses improve their online presence
+through a simple self-service experience. While we successfully developed a
+proof of concept and attracted a number of freemium users, we were unable to
+scale to the break-even point. Ultimately, we decided to part ways, but we came
+away with valuable lessons in software design and delivery, customer
+acquisition, and the various roles one must take on in a startup.
 
 ### jossemarGT
 
 **Full Stack and Hybrid Mobile Freelance Developer**
 *Dec. 2010 - Mar. 2015*
 
-I had the opportunity to contribute to several projects regardless of their
-programming language, from implementing websites and CMS themes alone to working
-with teams in creating CRMs, sale platforms, and hybrid mobile applications.
+I have had the opportunity to work on a diverse range of projects across
+multiple programming languages. My experiences include independently developing
+websites, implementing tailormade CRM, e-commerce sales platforms, and hybrid
+mobile applications.
 
 ## Skills
 
-- [Certified Scrum Product Owner](https://bcert.me/bc/html/show-badge.html?b=bguqpmhl),
-  [Certified Kubernetes Adminitrator](https://www.credly.com/badges/b0e6f8e1-5480-4d86-98a3-68a77e78b88a)
+- [Certified Kubernetes Adminitrator](https://www.credly.com/badges/b0e6f8e1-5480-4d86-98a3-68a77e78b88a),
+  [Certified Scrum Product Owner](https://bcert.me/bc/html/show-badge.html?b=bguqpmhl)
 - JavaScript, Go, Groovy, Java, POSIX shell (bash), Ruby, Python, Rust
-- Kubernetes, K3s, AWS, GCP, EKS, ECS, EC2, S3, IAM, CloudFormation
-- CDK, CDK8s, Serverless Framework, Puppet, Ansible, Docker, Packer, Terraform, Vagrant, systemd
-- git, gradle, maven, make, rake, cargo, Jenkins, drone.io, GitHub Actions
-- buildkit, docker, crane, Harbor, Keycloak, Istio, Nginx, System Administration (CentOS, Debian, Ubuntu)
-- node.js, TypeScript, Angular, Ionic, cordova, less CSS, sass, rspect, beaker, servespec, karma, jest, spock, junit
+- Kubernetes, K3s, AWS, GCP, EKS, ECS, EC2, S3, IAM, CloudFormation `- CDK,
+  CDK8s, Serverless Framework, Puppet, Ansible, Docker, Packer, Terraform,
+  Vagrant, systemd `- git, gradle, maven, make, rake, cargo, Jenkins, drone.io,
+  GitHub Actions
+- buildkit, docker, crane, Harbor, Keycloak, Istio, Nginx, System Administration
+  (CentOS, Debian, Ubuntu)
+- node.js, TypeScript, Angular, Ionic, cordova, less CSS, sass, rspect, beaker,
+  servespec, karma, jest, spock, junit
 - MongoDB, MaribaDB, PostgreSQL, etcd, Zookeeper, Redis
 
 ## Education
@@ -94,15 +107,14 @@ Universidad de San Carlos de Guatemala, Guatemala City
 
 ## Interests and Activities
 
-- Learning by sharing
-  - [KCD El Salvador 2023](https://www.credly.com/badges/04ab7bae-10e2-4c54-abd5-85bd0dd6e019/public_url)
-  - [KCD Colombia 2023](https://www.credly.com/badges/5aba165c-6ed3-46a8-9818-b82acae969f8/public_url)
-  - [and more...](https://jossemargt.github.io/talks/)
-- Helping to organize tech communities
-  - [KCD Guatemala 2023](https://community.cncf.io/kcd-guatemala/)
+- Promote the sharing of knowledge about the technology industry and best practices in Latin America
+  - [AWS Community Day 2024](https://api.badgr.io/public/assertions/KKHUg5PYSoCdPMwU4xNNqA?identity__email=jossemargt%40gmail.com)
+  - [KCD Guadalajara 2024](https://constancias.sg.com.mx/ccosskcd24/participantes/JonnatanJossemarCordero.pdf)
+  - [KCD Lima 2024](https://www.credly.com/badges/b1b15ad6-ba25-4e88-9bf5-f3942de2bb5e/linked_in_profile)
+  - [and others](https://www.linkedin.com/in/jossemargt/details/certifications/)
+- Foster and organize tech communities
   - [Kubernetes Guatemala](https://community.cncf.io/kubernetes-guatemala/)
-  - [Cloud Native LATAM](https://community.cncf.io/cloud-native-latin-america/)
-- To contribute in OSS full time is my dream! @[jossemarGT](http://github.com/jossemargt)
-- [Voces Guatemala](https://voces.com.gt/) radio host
+  - [La hora de Kubernetes](https://www.youtube.com/watch?v=w10hrmn38pc)
+- Contribute to the [Voces Guatemala](https://voces.com.gt/) radio project
+- Determined to find a way to contribute to OSS full-time @[jossemarGT](http://github.com/jossemargt)
 - GNU Linux (Debian/Arch/Open Suse/Ubuntu) user
-- Amateur stand up comedian (and... that's not a joke!)

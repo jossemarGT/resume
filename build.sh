@@ -4,7 +4,7 @@ set -eu
 
 GOAL=${1-default}
 SRC_PATH=${SRC_PATH-$(pwd)}
-BUILD_DATE=$(date +%B\ %d,\ %Y)
+: "${BUILD_DATE:=$(date +%B\ %d,\ %Y)}"
 
 ##
 # Generates HTML page inside docs/ directory using RESUME.md file and Pandoc Docker

@@ -37,18 +37,9 @@ dagger.#Plan & {
 				dest: "/data"
 			}
 
-			_prepare: docker.#Run & {
-				input: _addSource.output
-				workdir: "/data"
-				command: {
-					name: "ash"
-					args: ["-c", "./build.sh bump-date"]
-				}
-			}
-
 			// Generate page
 			generatePage: docker.#Run & {
-				input: _prepare.output
+				input: _addSource.output
 				workdir: "/data"
 				command: {
 					name: "pandoc"

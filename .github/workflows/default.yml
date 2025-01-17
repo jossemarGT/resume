@@ -35,7 +35,6 @@ jobs:
         with:
           name: resume-artifacts
           path: dist
-
       - name: Pre-Release
         run: |
           ./build.sh ci-setup
