@@ -1,15 +1,14 @@
 # Jossemar Cordero
 
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|:---:|:---|:---:|:---|:---:|:---|:---:|:---
+| **Languages** | Spanish, English      | **LinkedIn**  | [linkedin.com/in/jossemargt](https://linkedin.com/in/jossemargt/) | **Email**     | jossemargt@gmail.com  | **Website**   | [jossemargt.com](https://jossemargt.com/en/)
+
 I enjoy working in the technology industry because it allows me to learn through
 research, experimentation, and community building. Although I prefer designing
 solutions, I value the lessons from my engineering manager days, particularly
 that we must prioritize the human aspect before addressing complex problems with
 technology.
-
-| <!-- -->      | <!-- -->              | <!-- -->      | <!-- -->
-|:---           |:---                   |:---           |:---
-| **Languages** | Spanish, English      | **Website**   | [jossemargt.com](https://jossemargt.com/en/)
-| **Email**     | jossemargt@gmail.com  | **LinkedIn**  | [linkedin.com/in/jossemargt](https://linkedin.com/in/jossemargt/)
 
 ## Work Experience
 
@@ -65,13 +64,11 @@ concepts in a hybrid cloud model.
 **Co-Founder**
 *Jan. 2014 - Dec. 2014*
 
-My business partner and I embraced the challenge of launching a self-funded
-startup focused on helping small businesses improve their online presence
-through a simple self-service experience. While we successfully developed a
-proof of concept and attracted a number of freemium users, we were unable to
-scale to the break-even point. Ultimately, we decided to part ways, but we came
-away with valuable lessons in software design and delivery, customer
-acquisition, and the various roles one must take on in a startup.
+My business partner and I launched a self-funded startup to help small
+businesses improve their online presence with a simple self-service tool.
+Although we developed a proof of concept and attracted freemium users, we
+couldn't reach break-even, so, we decided to part ways but gained valuable
+insights into software design, customer acquisition, and startup functions.
 
 ### jossemarGT
 
@@ -88,12 +85,11 @@ mobile applications.
 - [Certified Kubernetes Adminitrator](https://www.credly.com/badges/b0e6f8e1-5480-4d86-98a3-68a77e78b88a),
   [Certified Scrum Product Owner](https://bcert.me/bc/html/show-badge.html?b=bguqpmhl)
 - JavaScript, Go, Groovy, Java, POSIX shell (bash), Ruby, Python, Rust
-- Kubernetes, K3s, AWS, GCP, EKS, ECS, EC2, S3, IAM, CloudFormation `- CDK,
-  CDK8s, Serverless Framework, Puppet, Ansible, Docker, Packer, Terraform,
-  Vagrant, systemd `- git, gradle, maven, make, rake, cargo, Jenkins, drone.io,
-  GitHub Actions
-- buildkit, docker, crane, Harbor, Keycloak, Istio, Nginx, System Administration
-  (CentOS, Debian, Ubuntu)
+- Kubernetes, K3s, Operators, kubebuilder, pepr, kopf, kube-rs, helm
+- AWS, GCP, EKS, ECS, EC2, S3, IAM, CloudFormation CDK, CDK8s, Puppet, Ansible,
+  Docker, Packer, Terraform, Vagrant, Serverless Framework
+- git, gradle, maven, make, rake, cargo, Jenkins, drone.io, GitHub Actions
+- buildkit, docker, crane, Harbor, Keycloak, Istio, Nginx, systemd
 - node.js, TypeScript, Angular, Ionic, cordova, less CSS, sass, rspect, beaker,
   servespec, karma, jest, spock, junit
 - MongoDB, MaribaDB, PostgreSQL, etcd, Zookeeper, Redis

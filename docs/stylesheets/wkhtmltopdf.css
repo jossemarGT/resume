@@ -1,1 +1,2 @@
+/* Do not print URLs on hrefs */
 a::after { content: ''!important; }
