@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+@import url(https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined&icon_names=language,rss_feed,mail,person_add,star&display=block);
 
 body {
   color: #232323;
@@ -14,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-h1,h2 {
+h1, h2 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
@@ -25,7 +26,7 @@ h2 + .level3 {
 
 p, li {
   font-size:  1.125rem;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
 p { margin: 5px 0; }
@@ -44,27 +45,37 @@ a:hover {
 
 table {
   width:100%;
-  margin: 15px 0;
+  margin: 0;
+}
+
+.level1 > table {
+  margin: 0 auto;
 }
 
 thead { display: none; }
 
-td {
-  font-size: 1rem;
-  padding: 5px 0;
-  font-weight: 400;
+td .material-symbols-outlined {
+  position: relative;
+  top: 3px;
+}
+
+td .material-symbols-outlined + strong {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #main-header {
   padding: 0 0 5px;
-  margin: 30px 0 10px;
-  border-bottom: 1px solid #ccc;
+  margin: 30px 0 0;
 }
 
 .title {
   font-family: 'Arvo', serif;
   font-size: 2rem;
   font-weight: 400;
+  display: inline-block;
   border-bottom: none;
   margin: 0;
 }
@@ -73,6 +84,7 @@ td {
   font-family: 'Lato', sans-serif;
   font-size: 1.25rem;
   font-weight: 100;
+  display: inline-block;
   border-bottom: none;
   margin: 0;
 }
@@ -89,83 +101,127 @@ td {
   margin: 25px 0 0;
 }
 
-strong + em::before {
-  display: inline-block;
-  padding: 0 5px 0;
-  content: '\203A';
-}
+
 
 .level2 p, .level3 p, .level3 ul {
   text-align: justify;
 }
 
-section#work-experience {
+#work-experience {
   float: left;
   width: 84%;
   margin-top: 10px;
 }
 
-section#skills {
+#work-experience h3 {
+  display: inline;
+  margin-bottom: 0;
+}
+
+#work-experience h3 + p {
+  display: inline;
+}
+
+#skills {
   float: right;
   width: 13%;
   margin-top: 10px;
 }
 
-section#education {
+#education {
   clear: both;
   padding-top: 10px;
   margin-top: 0;
 }
 
-section#work-experience h2, section#skills h2 {
+#education p {
+  margin: 0;
+}
+
+#work-experience h2, #skills h2 {
   margin-top: 0;
 }
 
-section#skills h2, section#skills ul {
+#skills h2, #skills ul {
   text-align: center;
 }
 
-section#skills ul {
+#skills ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-section#skills li {
+#skills li {
   display: inline;
   padding: 0;
   font-size: 1rem;
+  line-height: 1.5;
 }
 
-section#skills li::after {
+#skills li::after {
   content: ', ';
 }
 
-section#skills li:last-child::after {
+#skills li:last-child::after {
   content: '';
+}
+
+.tag-line::before {
+  display: inline-block;
+  padding: 0 3px 0;
+  content: '\2B29';
+  font-style: normal;
+}
+
+strong + em::before {
+  display: inline-block;
+  padding: 0 3px 0;
+  content: '\2B29';
+  font-style: normal;
+}
+
+#work-experience h3 + p::before {
+  display: inline-block;
+  padding: 0 3px 0;
+  content: '\2B29';
+  font-style: normal;
 }
 
 @media not print {
   @media (max-width: 820px) {
-    section#work-experience {
+    .level1 > p,
+    .tag-line::before {
+      display: none;
+    }
+
+    #work-experience {
       float: none;
       width: 100%;
     }
 
-    section#skills {
+    #work-experience h3 {
+      display: block;
+    }
+
+    #work-experience h3 + p::before {
+      display: none;
+    }
+
+    #skills {
       float: none;
       width: 100%;
     }
 
-    section#skills h2 {
+    #skills h2 {
       text-align: left;
     }
 
-    section#skills ul {
+    #skills ul {
       text-align: justify;
     }
 
-    section#skills li {
+    #skills li {
       font-size:  1.125rem;
     }
   }
@@ -180,22 +236,35 @@ section#skills li:last-child::after {
     background: none;
   }
 
-  body .container:first-child {
-    width: 96%;
-  }
+  body .container:first-child {  width: 98%; }
 
-  h1 { font-size: 22pt; }
-  h2 { font-size: 17pt; }
+  h1 { font-size: 18pt; }
+  h2 { font-size: 16pt; }
   h3, h4 { font-size: 14pt; }
+
   strong { font-weight: 400; }
 
-  p { margin: 2pt 0 8pt; }
-  table { margin: 0; }
+  .title {
+    display: inline;
+    font-size: 18pt;
+  }
 
-  p, li {
+  .tag-line {
+    font-size: 14pt;
+  }
+
+  p {
+    margin: 2pt 0 8pt;
     font-size: 12pt;
     line-height: 1.525;
   }
+
+  li {
+    font-size: 12pt;
+    line-height: 1.3;
+  }
+
+  table { margin: 0; }
 
   td {
     font-weight: 200;
@@ -203,36 +272,32 @@ section#skills li:last-child::after {
     line-height: normal;
   }
 
-  #main-header { margin: 0 0 5pt; }
+  #main-header { margin: 0; padding: 0;}
 
-  section#work-experience {
+  #work-experience {
     width: 85%;
   }
 
-  section#skills li {
+  #skills li {
     font-size: 10pt;
   }
 
-  section#education {
+  #education {
     padding-top: 0;
   }
 
-  .level1 h1 + p { display: none; }
-
-  .title, .tag-line { display: block; }
-
-  .tag-line { font-size: 14pt;}
+  .level1 > p { display: none; }
 
   .level2 { margin-top: 12pt; }
 
-  .level3 {
+  .level3, #education {
     break-inside: avoid;
     page-break-inside: avoid;
     margin: 0;
   }
 
   h2 ~ .level3 h3 {
-    margin-top: 12pt!important;
+    margin-top: 16pt!important;
   }
 
   strong + em::before {
@@ -242,6 +307,10 @@ section#skills li:last-child::after {
   table { margin: 0; }
 
   table td:nth-child(odd) { font-weight: 400; }
+
+  td .material-symbols-outlined {
+    top: 1pt;
+  }
 
   a::after { content: " [" attr(href) "] "; }
 

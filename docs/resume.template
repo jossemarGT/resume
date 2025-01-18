@@ -20,7 +20,6 @@ $if(quotes)$
     <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
 $endif$
     <title>$title$</title>
-
     <link rel="stylesheet" href="stylesheets/simple-grid.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
 $for(css)$
@@ -86,7 +85,7 @@ $endfor$
     </div>
     <script>
       (function(w,d){
-        w.evenTables(d);
+        w.beautifyTables(d);
       })(window, document)
     </script>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->

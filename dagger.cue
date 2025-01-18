@@ -97,15 +97,16 @@ dagger.#Plan & {
 					args: ["index.html", "dist/jossemargt-resume.pdf"]
 					flags: {
 						"--no-background": true,
+						"--no-outline": true,
 						"--print-media-type": true,
 						"--enable-local-file-access": true,
-						"--disable-javascript": true,
 						"--page-size": "Letter",
-						"-T": "15",
-						"-R": "13",
-						"-B": "13",
-						"-L": "13",
-						"--user-style-sheet": "stylesheets/wkhtmltopdf.css"
+						"-T": "12",
+						"-R": "12",
+						"-B": "12",
+						"-L": "12",
+						"--user-style-sheet": "stylesheets/wkhtmltopdf.css",
+						"--debug-javascript": true,
 					}
 				}
 				export: {
