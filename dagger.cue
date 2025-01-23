@@ -101,7 +101,7 @@ dagger.#Plan & {
 						"--print-media-type": true,
 						"--enable-local-file-access": true,
 						"--page-size": "Letter",
-						"-T": "13",
+						"-T": "12",
 						"-R": "12",
 						"-B": "12",
 						"-L": "12",
