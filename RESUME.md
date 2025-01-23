@@ -2,32 +2,33 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |:---:|:---|:---:|:---|:---:|:---|:---:|:---
-| **Languages** | Spanish, English      | **LinkedIn**  | [linkedin.com/in/jossemargt](https://linkedin.com/in/jossemargt/) | **Email**     | jossemargt@gmail.com  | **Website**   | [jossemargt.com](https://jossemargt.com/en/)
+| **Languages** | Spanish, English | **LinkedIn** | [linkedin.com/in/jossemargt](https://linkedin.com/in/jossemargt/) | **Email** | jossemargt@gmail.com | **Website** | [jossemargt.com](https://jossemargt.com/en/)
 
 I enjoy working in the technology industry because it allows me to learn through
 research, experimentation, and community building. Although I prefer designing
-solutions, I value the lessons from my engineering manager days, particularly
+solutions, I value the lessons from my engineering management days, particularly
 that we must prioritize the human aspect before addressing complex problems with
-technology.
+bits and bytes.
 
 ## Work Experience
 
-### CTO.ai
+### Senior Lead Engineer
 
-**Senior Lead Engineer**
+**CTO.ai**
 *Jun. 2022 - Currently*
 
-Initially, I joined the team as an engineering manager, where I had the
-opportunity to improve the engineering culture, enhance the delivery process,
-and address communication challenges within the engineering crew. Once the team
-was aligned to the company's needs, I transitioned to an individual contributor
-role, where my responsibilities included designing, implementing, and
-maintaining components for our polyglot ecosystem that operates on Kubernetes
-and serverless platforms while striving to enhance the platform’s reliability.
+I initially joined the company as an engineering manager for the product team.
+In this role, I had the opportunity to improve the culture, enhance the delivery
+process, and address communication challenges within the engineering department
+across the organization. Once the team was aligned with the company's needs, I
+transitioned to an individual contributor role. My responsibilities in this
+other position included designing, implementing, and maintaining components for
+our polyglot ecosystem, which operates on Kubernetes and serverless platforms,
+all while working to enhance the platform’s reliability.
 
-### 3Pillar Global / SUSE Rancher
+### DevOps Techlead
 
-**DevOps Techlead**
+**3Pillar Global / SUSE Rancher**
 *Dec. 2021 - May 2022*
 
 As a 3Pillar DevOps consultant, I had the privilege of collaborating with the
@@ -38,9 +39,9 @@ extensive understanding of Kubernetes, the existing team's delivery practices,
 and how organizations manage their value stream by creating and maintaining Open
 Source Software.
 
-### PayPal
+### Engineering Manager - MTS2
 
-**Infrastructure Engineering Manager - MTS2**
+**PayPal**
 *Sep. 2020 - Nov. 2021*
 
 While leading the Build and Orchestration team, we worked to align Xoom’s CI/CD
@@ -49,9 +50,9 @@ support my team in their continuous learning, growth, and delivery, which
 enabled us to keep our internal platforms fully operational for over 200
 engineers while transitioning into new ways of working.
 
-### Xoom, a Paypal Service
+### Tooling Engineer - MTS1
 
-**Infrastructure Tooling Engineer - MTS1**
+**Xoom, a Paypal Service**
 *Mar. 2015 - Sep. 2020*
 
 As part of the Xoom Infrastructure Tooling team, we transformed our company's
@@ -59,9 +60,9 @@ product delivery by adopting new technologies, automating tasks, restructuring
 processes, and utilizing immutable infrastructure and continuous delivery
 concepts in a hybrid cloud model.
 
-### Sait Nao
+### Co-Founder
 
-**Co-Founder**
+**Sait Nao**
 *Jan. 2014 - Dec. 2014*
 
 My business partner and I launched a self-funded startup to help small
@@ -70,9 +71,9 @@ Although we developed a proof of concept and attracted freemium users, we
 couldn't reach break-even, so, we decided to part ways but gained valuable
 insights into software design, customer acquisition, and startup functions.
 
-### jossemarGT
+### Full Stack and Hybrid Mobile Developer
 
-**Full Stack and Hybrid Mobile Freelance Developer**
+**Freelance**
 *Dec. 2010 - Mar. 2015*
 
 I have had the opportunity to work on a diverse range of projects across
@@ -85,21 +86,22 @@ mobile applications.
 - [Certified Kubernetes Adminitrator](https://www.credly.com/badges/b0e6f8e1-5480-4d86-98a3-68a77e78b88a),
   [Certified Scrum Product Owner](https://bcert.me/bc/html/show-badge.html?b=bguqpmhl)
 - JavaScript, Go, Groovy, Java, POSIX shell (bash), Ruby, Python, Rust
-- Kubernetes, K3s, Operators, kubebuilder, pepr, kopf, kube-rs, helm
-- AWS, GCP, EKS, ECS, EC2, S3, IAM, CloudFormation CDK, CDK8s, Puppet, Ansible,
-  Docker, Packer, Terraform, Vagrant, Serverless Framework
+- Kubernetes, K3s, kubebuilder, pepr, kopf, kube-rs, Operator SDK helm, Istio, Keycloak
+- AWS, EKS, EC2, S3, IAM, RDS, OpenSearch, ElastiCache CloudFormation, CDK
+- CDK8s, Puppet, Ansible, Docker, Packer, Terraform, Vagrant, Serverless Framework
 - git, gradle, maven, make, rake, cargo, Jenkins, drone.io, GitHub Actions
-- buildkit, docker, crane, Harbor, Keycloak, Istio, Nginx, systemd
+- buildkit, docker, crane, Harbor, Nginx, systemd, rpm packaging
 - node.js, TypeScript, Angular, Ionic, cordova, less CSS, sass, rspect, beaker,
   servespec, karma, jest, spock, junit
 - MongoDB, MaribaDB, PostgreSQL, etcd, Zookeeper, Redis
 
 ## Education
 
-**Bachelor's Degree in Software Engineering and Computer Science, Curriculum Completed**
-*November 2013*
+**Bachelor in Software Engineering and Computer Science**
 
-Universidad de San Carlos de Guatemala, Guatemala City
+*Universidad de San Carlos de Guatemala, Guatemala City*
+
+November 2013 / Curriculum Completed
 
 ## Interests and Activities
 
@@ -107,10 +109,10 @@ Universidad de San Carlos de Guatemala, Guatemala City
   - [AWS Community Day 2024](https://api.badgr.io/public/assertions/KKHUg5PYSoCdPMwU4xNNqA?identity__email=jossemargt%40gmail.com)
   - [KCD Guadalajara 2024](https://constancias.sg.com.mx/ccosskcd24/participantes/JonnatanJossemarCordero.pdf)
   - [KCD Lima 2024](https://www.credly.com/badges/b1b15ad6-ba25-4e88-9bf5-f3942de2bb5e/linked_in_profile)
-  - [and others](https://www.linkedin.com/in/jossemargt/details/certifications/)
+  - [other events](https://www.linkedin.com/in/jossemargt/details/certifications/) & [slides archive](https://jossemargt.github.io/talks/)
 - Foster and organize tech communities
   - [Kubernetes Guatemala](https://community.cncf.io/kubernetes-guatemala/)
   - [La hora de Kubernetes](https://www.youtube.com/watch?v=w10hrmn38pc)
-- Contribute to the [Voces Guatemala](https://voces.com.gt/) radio project
 - Determined to find a way to contribute to OSS full-time @[jossemarGT](http://github.com/jossemargt)
+- Contribute to the [Voces Guatemala](https://voces.com.gt/) radio project as of their hosts
 - GNU Linux (Debian/Arch/Open Suse/Ubuntu) user
