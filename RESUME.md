@@ -17,67 +17,107 @@ bits and bytes.
 **CTO.ai**
 *Jun. 2022 - Currently*
 
-I joined the company as the engineering manager for the product team, where I
-reshaped the culture, improved our delivery processes, and addressed
-communication challenges across the company. After aligning the team with the
-company's goals, I transitioned to an individual contributor role, focusing in
-the research, development, and maintenance of key components in our polyglot
-platform.
+- Reestablished the value stream delivery process by resolving the blockers from
+  the 2022 initiatives by establishing clear communication and delivery
+  guidelines while enhancing engineering culture. This involved encouraging best
+  practice sharing, consensus-building, and setting clear expectations between
+  the delivery team and company leaders.
+- Led the research and development efforts to enhance the platform with
+  cloud-native technologies. This included:
+  - Migrating a part of the core platform to standalone Kubernetes operators
+    that can be used independently on the customer's clusters.
+  - Creating proof of concepts for new capabilities, such as integrating a
+    standalone buildkit and extending open-source clients for external OCI
+    builds and caching.
+- Enhanced the platform's reliability by periodically updating the main
+  dependencies of the infrastructure, such as upgrading Kubernetes clusters from
+  version 1.19 to 1.26, while also reducing 30% cloud costs by staying compliant
+  and eliminating redundant or unused resources.
+- Aided the company in forming a partnership with a third-party cloud provider,
+  enabling users to access the platform seamlessly. This was achieved by
+  programmatically extending our identity provider, Keycloak, to support the
+  third-party Single Sign-On protocol.
 
 ### DevOps Techlead
 
 **3Pillar Global / SUSE**
 *Dec. 2021 - May 2022*
 
-As a 3Pillar DevOps consultant, I had the privilege of collaborating with the
-[SUSE Rancher](https://www.suse.com/products/rancher/) team to automate
-their release and delivery procedures for [RKE2](https://docs.rke2.io/) and
-[K3S](https://k3s.io/) Kubernetes distributions. This effort demanded a deep
-understanding of Kubernetes, the team's current delivery practices, and how
-organizations manage their value streams while creating and maintaining Open
-Source Software.
+- Reduced the [RKE2](https://docs.rke2.io/) release time by collaborating on the
+  documentation and automation of the existing processes alongside the different
+  teams involved. At the same time, still manually assisting with the releases
+  for RKE2 1.21, 1.22, and 1.23 and patching several internal components.
+- Improved QA test reliability by augmenting the existing drone CI pipelines and
+  tooling to generate snapshot rpms with RKE2 binaries per revision commit.
+- Eased the learning curve of new SUSE Rancher consultants by documenting,
+  breaking down concepts, and training about their core products, team's ways of
+  working, and release processes.
 
 ### Engineering Manager - MTS2
 
 **PayPal**
 *Sep. 2020 - Nov. 2021*
 
-While leading the Build and Orchestration team, we worked to align Xoom’s CI/CD
-platforms, practices, and processes with those of PayPal. My objective was to
-support my team in their continuous learning, growth, and delivery, which
-enabled us to keep our internal platforms fully operational for over 200
-engineers while transitioning into new ways of working.
+- We streamlined the creation and refresh of the QA environment, which relies on
+  a custom provisioning process and management of applications' configurations
+  per environment. This reduced costs associated with unused infrastructure and
+  saved time for the development team.
+- We aligned Xoom CI practices with PayPal by adopting their ways of working
+  while sharing our own through portable, opinionated, and reproducible
+  pipelines and tooling. At the same time, we still provided support to 200+
+  engineers on their day to day CI enquires. This helped to get towards a
+  homogeneous way of working across business units.
+- We established clear standards for managing infrastructure as code in our new
+  cloud provider, Google Cloud Platform (GCP). This foundation was essential for
+  the Xoom GCP migration, as it provided all infrastructure engineering teams
+  with a unified approach and defined exceptions.
 
 ### Tooling Engineer - MTS1
 
 **Xoom, a Paypal Service**
 *Mar. 2015 - Sep. 2020*
 
-As part of the Tooling team, we transformed our company's product delivery by
-adopting new technologies, automating repetitive tasks, restructuring processes,
-embracing immutable infrastructure principles within a hybrid cloud and creating
-developer tools for their day to day workflows.
+- Reduced time to production for new applications from two months to five
+  minutes by improving the CI and deployment processes, which build and
+  provision the applications based on insights derived from the codebase or
+  developer-provided metadata.
+- Developed and implemented a unified method for provisioning static and dynamic
+  application configurations via a binary in application containers. This
+  approach is now used in over 200 production applications and has become the
+  standard for new applications.
+- Researched and prototyped methods to unify software development processes.
+  Consequently, our team standardized the development of applications and
+  infrastructure-as-code components using CI pipelines, templates, guidelines,
+  development tools, and the adoption of emerging technologies.
 
 ### Co-Founder
 
-**Sait Nao**
+**Self-funded startup**
 *Jan. 2014 - Dec. 2014*
 
-My business partner and I launched a self-funded startup to help small
-businesses improve their online presence with a simple self-service tool.
-Although we managed to attract freemium users with our minimun viable product,
-we couldn't reach break-even. This gave us great experience about software
-design, customer acquisition, and startup functions.
+- We identified that our target market, small businesses, face challenges in
+  easily creating websites. Often, the process is either too complex or requires
+  a significant investment relative to their average income. In response, we set
+  the goal of developing a simple way for these businesses to build websites by
+  simply answering questions and providing their Facebook page URL.
+- We developed a proof of concept using a WordPress multisite, which included
+  premium website themes and a set of custom plugins created from scratch. This
+  was done to present our idea to peers at the "Centro Municipal de
+  Emprendimiento" and to small businesses we visited door to door.
+- Designed and built a minimal viable product using Node.js and a basic Angular
+  single-page application, gaining the adoption of several freemium users.
 
 ### Full Stack and Hybrid Mobile Developer
 
 **Freelance**
 *Dec. 2010 - Mar. 2015*
 
-I had the opportunity to work on a variety of projects with unique requirements
-and programming languages. My experiences included building both "vanilla" and
-e-commerce WordPress websites, creating a custom CRM from scratch, and
-developing hybrid mobile applications.
+- Led development teams as a consultant by designing and establishing the
+  foundational code for multiple custom platforms, such as a back office for a
+  trading firm or a CRM built from the ground up.
+- Created several WordPress themes and hybrid mobile applications, primarily as
+  proof of concept, to meet specific demands from local referrals or gigs from
+  freelancing websites.
 
 ## Skills
 
