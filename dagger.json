@@ -1,0 +1,6 @@
+{
+  "name": "resume",
+  "engineVersion": "v0.15.2",
+  "sdk": "typescript",
+  "source": "ci"
+}

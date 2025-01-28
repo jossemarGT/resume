@@ -7,15 +7,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Build artifacts
-        uses: dagger/dagger-for-github@v3
+        uses: dagger/dagger-for-github@v7
         with:
-          cmds: |
-            project init
-            project update
-            do pdf
-      - uses: actions/upload-artifact@v3
+          call: build --src . export --path dist/
+      - uses: actions/upload-artifact@v4
         with:
           name: resume-artifacts
           retention-days: 1
@@ -27,11 +24,11 @@ jobs:
     if:  ${{ contains(github.ref, 'master') }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Download artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: resume-artifacts
           path: dist

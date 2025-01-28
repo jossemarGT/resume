@@ -3,39 +3,7 @@
 set -eu
 
 GOAL=${1-default}
-SRC_PATH=${SRC_PATH-$(pwd)}
 : "${BUILD_DATE:=$(date +%B\ %d,\ %Y)}"
-
-##
-# Generates HTML page inside docs/ directory using RESUME.md file and Pandoc Docker
-# container
-generate_page () {
-  echo  ":: Generating Page"
-  docker run -v "${SRC_PATH}":/tmp/source -w /tmp/source --rm portown/alpine-pandoc pandoc \
-        --verbose --fail-if-warnings --standalone --wrap=none --section-divs --no-highlight \
-        --from markdown_github+yaml_metadata_block+auto_identifiers+smart-hard_line_breaks \
-        --to html5 --template docs/resume.template --output docs/index.html \
-        ./RESUME.md docs/configuration.yaml
-}
-
-##
-# Bumps last modified date in pandoc template configuration
-bump_date () {
-  sed -i "s/date:.*/date:   ${BUILD_DATE}/" docs/configuration.yaml
-}
-
-##
-# Generates PDF file inside dist/ directory using docs/index.html file and
-# wkhtmltopdf Docker container
-generate_pdf () {
-  [ -d dist ] || mkdir dist
-  echo  ":: Generating PDF"
-  docker run -v "${SRC_PATH}":/tmp/source -w /tmp/source --rm madnight/docker-alpine-wkhtmltopdf \
-        --page-size Letter --no-background --print-media-type \
-        --enable-local-file-access -T 20 -R 13 -B 13 -L 13 \
-        --user-style-sheet docs/stylesheets/wkhtmltopdf.css \
-        docs/index.html dist/jossemargt-resume.pdf
-}
 
 ######### CI Specific goals #########
 
@@ -76,7 +44,6 @@ git_publish () {
 # Using the functions defined above
 case "$GOAL" in
   ci-setup)
-    [ -d dist ] || mkdir dist
     git_setup
     ;;
   ci-gh-page-bump)
@@ -85,13 +52,13 @@ case "$GOAL" in
   ci-gh-page-publish)
     git_publish
     ;;
-  bump-date)
-    bump_date
-    ;;
   default)
-    bump_date
-    generate_page
-    generate_pdf
+    dagger call bump-date \
+      --target docs/configuration.yaml \
+      export --path docs/configuration.yaml
+
+    dagger call build \
+      --src . export --path dist/
     ;;
   *)
     echo ":: Unrecognized goal '${GOAL}'. Nothing to do."
