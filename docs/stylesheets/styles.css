@@ -127,7 +127,7 @@ td .material-symbols-outlined + strong {
 }
 
 /* Render the last sections "full page" width */
-#work-experience .level3:nth-child(n+6) {
+#work-experience .level3:nth-child(n+7) {
   position: relative;
   width: 115%;
 }
@@ -223,7 +223,7 @@ strong + em::before {
       display: none;
     }
 
-    #work-experience .level3:nth-child(n+6) {
+    #work-experience .level3:nth-child(n+7) {
       width: 100%;
     }
 
