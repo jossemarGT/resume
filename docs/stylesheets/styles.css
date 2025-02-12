@@ -132,8 +132,8 @@ td .material-symbols-outlined + strong {
   width: 115%;
 }
 
-/* Only show top 3 bullets under work experience section */
-#work-experience ul li:nth-child(n+4) {
+/* Only show top 4 bullets under work experience section */
+#work-experience ul li:nth-child(n+5) {
   display: none;
 }
 

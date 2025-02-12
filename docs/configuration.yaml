@@ -15,7 +15,7 @@ github_reponame: resume
 # ==============================================================================
 title: 'jossemarGT résumé'
 lang:   en
-date:   January 27, 2025
+date:   February 12, 2025
 author:
   - Jossemar Cordero
 description: 'jossemargt resume'
@@ -27,6 +27,7 @@ keywords:
   - technical lead
   - devops
   - kubernetes
+  - golang
 # ==============================================================================
 #                        CUSTOM HTML TO INJECT IN HEADER
 # ==============================================================================
