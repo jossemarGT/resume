@@ -20,12 +20,15 @@ bits and bytes.
 - Established communication and process guidelines for the engineering team,
   which improved collaboration performance and culture, allowing us to overcome
   blockers from the 2022 initiatives.
+- Directed architectural decisions for a polyglot system in Go, JavaScript,
+  Rust, and Java, enhancing reliability and reducing complexity, ensuring robust
+  and scalable solutions.
 - Led the research and development efforts to enhance the product with
   cloud-native technologies. This included:
-  - Migrating a part of the core platform to standalone Kubernetes operators
-    that can be used independently. This initiative enhanced portability,
-    enabling customers to run the solution on their own.
-  - Developed proof of concepts, such as using ephemeral buildkit services with
+  - Migrating a part of the core platform as standalone Kubernetes operators
+    written in Go, enhancing core platform portability and enabling customer
+    independence.
+  - Developing proof of concepts, such as using ephemeral buildkit services with
     modified open-source clients, showcasing efficiency improvements, and
     highlighting technology investment needs.
 - Enhanced platform reliability by upgrading Kubernetes clusters from v1.19 to
@@ -41,7 +44,8 @@ bits and bytes.
 *Dec. 2021 - May 2022*
 
 - Improved [RKE2](https://docs.rke2.io/) release time by collaborating in the
-  documentation and automation of the existing cross-team processes.
+  documentation and automation of the existing cross-team processes through a
+  single Go written binary.
 - Enhanced QA test reliability by improving drone CI pipelines and tools to
   generate snapshot RPMs with RKE2 binaries per revision commit.
 - Streamlined 3Pillar consultant onboarding by documenting and breaking down
@@ -70,9 +74,9 @@ bits and bytes.
 - Reduced time to production for new applications from two months to five
   minutes by enhancing CI and deployment processes, leveraging codebase insights
   and developer-provided metadata.
-- Created a unified provisioning method for static and dynamic application
-  configurations in containers, now standard in over 200 production applications
-  and new projects.
+- Developed a unified provisioning method for static and dynamic application
+  configurations using a single Go binary, now standard across 200+ production
+  applications and new projects.
 - Researched and prototyped unified software development methods, leading my
   team to standardize application and infrastructure-as-code development using
   CI pipelines, templates, guidelines, tools, and emerging technologies.
@@ -108,7 +112,7 @@ bits and bytes.
 - [Certified Kubernetes Adminitrator](https://www.credly.com/badges/b0e6f8e1-5480-4d86-98a3-68a77e78b88a),
   [Certified Scrum Product Owner](https://bcert.me/bc/html/show-badge.html?b=bguqpmhl)
 - JavaScript, Go, Python, Java, Groovy, POSIX shell (bash), PHP, Ruby, Python, Rust
-- Kubernetes, K3s, kubebuilder, pepr, kopf, kube-rs, Operator SDK, helm, Istio, Keycloak
+- Kubernetes, K3s, kubebuilder, pepr, kopf, kube-rs, Operator SDK, helm, Istio, Karpenter, Keycloak
 - AWS, EKS, EC2, S3, IAM, RDS, OpenSearch, ElastiCache CloudFormation, CDK
 - CDK8s, Puppet, Ansible, Packer, Terraform, Vagrant, Serverless Framework
 - git, gradle, maven, make, rake, cargo, Jenkins, drone.io, GitHub Actions
